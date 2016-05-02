@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+	<title>麦卡龙在线客服</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="jquery.mCustomScrollbar.css" />
+</head>
+<body>
+	<h1 class="makalon-im-title">麦卡龙在线客服</h1>
+	<div class="page">
+		<div class="chatArea">
+			<div class="content mCustomScrollbar light" id="contentScroll"  data-mcs-theme="minimal-dark">
+				<ul id="messages" class="messages"></ul>
+			</div>
+		</div>
+		<form class="chat-form">
+			<div class="emoji-area">
+				<span class="btn-emoji" id="btnEmoji" title="表情">表情</span>
+				<div class="emoji-box"></div>
+			</div>
+			<div class="input-area">
+				<textarea id="inputText" class="input-txt" placeholder="请输入聊天内容....."/></textarea>
+				<button type="submit" class="btn-sbt">发送</button>
+			</div>
+		</form>
+	</div>
+
+	<script src="jquery.min.js"></script>
+	<script src="jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript">kefu = true;</script>
+	<script src="main.js"></script>
+</body>
+</html>
