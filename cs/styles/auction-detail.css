@@ -1,0 +1,139 @@
+body {
+    background-color: #f3f3f3;
+}
+.bussiness-crumbs {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
+.bussiness-crumbs > a {
+    margin: 0 5px;
+    color: #e77d00;
+}
+
+.bussiness-crumbs > em {
+    margin: 0 5px;
+    color: #333;
+}
+
+.bussiness-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.bussiness-container-wrap {
+    margin-bottom: 20px;
+    background: #fff;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    border: 1px solid #e8e7e7;
+    width: 998px;
+    background:#fafafa;
+} 
+
+.error-tip {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    display: none;
+    height: 30px;
+    border: 1px solid #fa2727;
+    padding: 0 20px;
+    line-height: 30px;
+    margin-top: -15px;
+    background: #ffafaf;
+    color: #fa2727;
+    font-size: 12px;
+}
+/* detail */
+
+.auction-detail {
+    min-height: 755px;
+    padding: 22px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.auction-detail > h3 {
+    height: 20px;
+    line-height: 20px;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.auction-detail > ul {
+    color: #666;
+}
+
+.auction-detail > ul > li {
+    border-top: 1px dashed #e4dcd0;
+    padding: 20px 0;
+    line-height: 26px;
+}
+
+.auction-detail > ul h4 {
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: #333;
+}
+
+.auction-detail dl {
+    overflow: hidden;
+}
+
+.auction-detail dd {
+    float: left;
+    width: 33.33%;
+}
+
+.auction-detail .information-detail >dd {
+    float: none;
+    width: 100%;
+    overflow: hidden;
+}
+
+.information-detail label {
+    float: left;
+    width: 60px;
+}
+
+.information-detail >dd>div {
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.information-detail > dd > ul {
+    overflow: hidden;
+}
+
+.information-detail > dd >ul>li {
+    position: relative;
+    float: left;
+    width: 108px;
+    height: 108px;
+    margin: 8px 20px 20px 0;
+    border: 1px solid #ececec;
+    overflow: hidden;
+}
+
+.information-detail > dd >ul>li > img {
+    width: 100%;
+}
+
+.information-detail li > span {
+    position: absolute;
+    top: -4px;
+    right: 0;
+    width: 39px;
+    height: 27px;
+    background-image: url(../images/hotTip.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>钱宝网-看广告，做任务，赚外快</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- build:css css/im.min.css-->
+  <link rel="stylesheet" href="bower_components/normalize.css/normalize.min.css">
+  <!-- inject:css -->
+  <!-- endinject -->
+  <link rel="stylesheet" href="common/styles/base.css">
+  <link rel="stylesheet" href="styles/business-center.css">
+  <link rel="stylesheet" href="styles/im.css">
+  <!-- endbuild -->
+</head>
+
+<body>
+  <!--user-header-->
+  <div class="container clearfix uc-panel">
+    
+    <!-- 表情区域 start -->
+    <div id="smile_panel">
+      <div class="panel-body">
+        <div id="normalSmile" class="row" style="display:block;height:110px;">
+        </div>
+        <div id="bigSmile" class="row" style="display:none">
+        </div>
+      </div>
+      <ul class="nav nav-tabs nav-justified" role="tablist" style="border-bottom:none" id="tab_Smile">
+        <li class="active" id="tabli_normalSmile">小表情</li>
+        <li id="tabli_bigSmile">大表情</li>
+      </ul>
+    </div>
+    <!-- 表情区域 end -->
+
+    <!-- 图片上传表单 start -->
+    <div id="upload_panel">
+      <div class="panel-heading">发送图片</div>
+      <div class="panel-body">
+        <form id="image_upload_form" role="form" enctype="multipart/form-data" method="post" action="http://enterprise.qbao.com/merchantUser/webchat/fileupload.html" target="hidden_frame">
+          <div class="form-group">
+            <label for=""></label>
+            <button type="button" class="btn btn-default" onclick="$('#image_upload_input').click()">选择图片</button> 
+            <img src="" id="image_upload_processing" style="display:none;height:30px" />
+            <input type="file" class="form-control custom-file-input" name="image_upload" id="image_upload_input" style="width:0;height:0;display:none;" placeholder="file">
+          </div>
+        </form>
+        <iframe name='hidden_frame' id="hidden_frame" style="width:0;height:0;display:none"></iframe>
+      </div>
+    </div>
+    <!-- 图片上传表单 end -->
+
+    <div class="containers" id="container_main">
+
+      <div id="bgAllImage"></div>
+
+      <div class="panel-body">
+
+        <!-- 聊天框头部区域 start -->
+        <ul class="nav nav-tabs nav-justified" role="tablist" style="border-bottom:none" id="tab_contact_message">
+          <li class="active" id="tabli_message">会话<img id="im-talk-icon" src="business-center/images/im-talk-icon.png" /></li>
+        </ul>
+        <!-- 聊天框头部区域 end -->
+
+        <!-- 聊天框左侧，聊天对象列表 start -->
+        <div id="current_message">
+
+          <!-- 聊天框左侧，角色切换面板，个人|商家 start -->
+          <div id="group-panel">
+            <!-- 聊天框左侧，角色切换面板，个人角色 start -->
+            <div class="group-item" id="group-item-person" target="person-area">
+              <div class="red-point"></div>
+              个人
+            </div>
+            <!-- 聊天框左侧，角色切换面板，个人角色 end -->
+
+            <!-- 聊天框左侧，角色切换面板，商家角色 start -->
+            <div class="group-item" id="group-item-business" target="business-area">
+              <div class="red-point"></div>
+              企业
+            </div>
+            <!-- 聊天框左侧，角色切换面板，商家角色 end -->
+          </div>
+
+          <!-- 聊天框左侧，角色切换面板，个人会话列表 start -->
+          <div id="person-area" class="group-area">
+            <span id="my-friend-head">
+              对话列表
+            </span>
+            <ul id="person-talk-list"></ul>
+          </div>
+          <!-- 聊天框左侧，角色切换面板，个人会话列表 end -->
+
+          <!-- 聊天框左侧，角色切换面板，商家会话列表 start -->
+          <div id="business-area" class="group-area">
+            <ul id="business-list"></ul>
+          </div>
+          <!-- 聊天框左侧，角色切换面板，商家会话列表 end -->
+
+          <input type="button" id="btn-query-chat-record" value="聊天纪录查询">
+          <!-- 聊天框左侧，角色切换面板，个人|商家 end -->
+
+        </div>
+        <!-- 聊天框左侧，聊天对象列表 end -->
+
+
+        <div id="talk-default" class="talk-area-list">
+          <img src="business-center/images/im-talk-banner.png" /> 未选择联系人
+        </div>
+
+        <div id="dialogue-area">
+          <div id="fans-area">
+            <div id="search-area">
+              <span id="fans-group">
+                分组名称：<span id="fans-name">全部粉丝</span>
+              </span>
+              <input type="text" placeholder="请输入用户名称" name="" id="input-username" value="" />
+              <div class="search-banner"></div>
+            </div>
+            <div id="dialogue-list-area"></div>
+            <ul id="ul-paginator">
+            </ul>
+          </div>
+          <div class="other-area">
+            <ul id="area-list"></ul>
+          </div>
+        </div>
+
+
+      </div>
+
+      <div id="message_container">
+
+        <!-- 聊天标题 start -->
+        <div class="talk-title">
+          <div id="message_contents_head"></div>
+          <div id="close-talk-dlg-btn"></div>
+        </div>
+        <!-- 聊天标题 start -->
+
+        <!-- 聊天显示区 start -->
+        <div id="message_contents">
+          <span id="more">更多聊天记录</span>
+          <ul class="list-group" id="talk-content-list-area">
+          </ul>
+        </div>
+        <!-- 聊天显示区 end -->
+
+        <!-- 聊天历史区 start -->
+        <div id="talk-record-area">
+          <span id="record-title">聊天记录详情</span>
+          <div id="close-record-btn"></div>
+          <ul id="record-list">
+            <li class="record-date">日期：2015-8-3</li>
+            <li class="record-contain">
+              <span class="record-name">kittey 2015-8-3 19:09:01</span>
+              <span class="record-content">还没到就没到</span>
+            </li>
+          </ul>
+          <div id="record-page-area">
+            <ul id="record-paginator">
+            </ul>
+          </div>
+        </div>
+        <!-- 聊天历史区 end -->
+
+        <!-- 聊天输入区域 start -->
+        <div class="chat-input-box" id="chatInputBox">
+          <form action="" method="post" id="messageform">
+            <div class="input-group">
+
+              <!-- 发送表情按钮 start -->
+              <span class="input-group-btn">
+                <button class="btn btn-default" id="span-face" type="button">
+                    <span class="glyphicon glyphicon-heart"></span>
+                </button>
+              </span>
+              <!-- 发送表情按钮 end -->
+
+              <!-- 发送图片按钮 start -->
+              <span class="input-group-btn">
+	              <button class="btn btn-default" id="span-img" type="button">
+	                  <span class="glyphicon glyphicon-file"></span>
+                </button>
+              </span>
+              <!-- 发送图片按钮 end -->
+
+              <!-- 聊天记录按钮 start -->
+              <span id="talk-record-btn">
+                聊天记录
+              </span>
+              <!-- 聊天记录按钮 end -->
+
+              <input id="_current_thread" name="thread" value="0:0:0" type="hidden" />
+
+              <!-- 聊天输入区域 start -->
+              <textarea maxlength="140" type="text" class="form-control" name="message" id="input_message"></textarea>
+              <!-- 聊天输入区域 end -->
+
+              <!-- 聊天发送按钮 start -->
+              <input type="button" name="enter-msg" id="enter-msg" value="Enter发送" />
+              <!-- 聊天发送按钮 end -->
+
+            </div>
+          </form>
+        </div>
+        <!-- 聊天输入区域 end -->
+
+      </div>
+
+    </div>
+
+    <div id="audio_play" style="display:inline;"></div>
+
+  </div>
+  <!--mask-->
+  <!--Site Footer-->
+
+  <!-- build:js js/vendor.min.js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/handlebars/handlebars.runtime.min.js"></script>
+  <!-- endbuild -->
+  <!-- build:js js/plugin.min.js -->
+  <script src="common/scripts/config.js"></script>
+  <!-- inject:js -->
+  <!-- endinject -->
+  <!-- <script src="scripts/templates.js"></script> -->
+
+  <script src="scripts/im/bufferpack.js"></script>
+  <script src="scripts/im/Base64.js"></script>
+  <script src="scripts/im/pinyin.js"></script>
+  <script src="scripts/im/store.min.js"></script>
+  <script src="scripts/im/jplayer/jquery.jplayer.min.js"></script>
+  <!-- endbuild -->
+  
+  <script type="text/javascript" src="var.js"></script>
+
+  <script type="text/javascript" src="fn.js"></script>
+
+  <script type="text/javascript" src="IMTip.js"></script>
+
+  <script type="text/javascript" src="IMMedia.js"></script>
+  
+  <script type="text/javascript" src="IMEmotion.js"></script>
+
+  <script type="text/javascript" src="IMUpload.js"></script>
+
+  <script type="text/javascript" src="IMSocket.js"></script>
+
+  <script type="text/javascript" src="IMWindow.js"></script>
+
+  <script src="im.js"></script>
+</body>
+
+</html>

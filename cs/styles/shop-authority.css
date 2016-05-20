@@ -1,0 +1,369 @@
+﻿body {
+    background-color: #f3f3f3;
+}
+
+table {
+    border-spacing: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.bussiness-crumbs {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
+.bussiness-crumbs > a {
+    margin: 0 5px;
+    color: #e77d00;
+}
+
+.bussiness-crumbs > em {
+    margin: 0 5px;
+    color: #333;
+}
+
+.bussiness-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.bussiness-container-wrap {
+    margin-bottom: 20px;
+    background: #fff;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    border: 1px solid #e8e7e7;
+    width: 998px;
+    background:#fafafa;
+}
+
+.shop-authority {
+    min-height: 755px;
+    overflow: hidden;
+    padding: 22px;
+    background: #fff;
+}
+
+.shop-authority > h3 {
+    border-bottom: 1px dashed #ccc;
+    padding: 10px 0 15px;
+    line-height: 28px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.shop-authority > ul {
+    padding: 20px 40px;
+    font-size: 14px;
+}
+
+.shop-authority li {
+    width: 100%;
+    min-height: 20px;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.shop-authority li >label {
+    float: left;
+    display: block;
+    width: 200px;
+    padding-right: 10px;
+    line-height: 28px;
+    text-align: right;
+    color: #333;
+}
+
+.shop-authority li > label >span {
+    padding: 0 5px;
+    color: #ff0000;
+}
+
+.shop-authority li > span {
+    position: relative;
+    left: 10px;
+    top: 80px;
+    color: #999;
+    font-size: 12px;
+}
+
+.shop-authority li >div {
+    min-height: 28px;
+    overflow: hidden;
+}
+
+.add-pic {
+    position: relative;
+    float: left;
+    height: 101px;
+    width: 101px;
+    border: 1px solid #dedede;
+    background-image: url(../images/add.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#complete.add-pic {
+    background-image: none;
+}
+
+.add-pic > input {
+    width: 101px;
+    height: 101px;
+    background: #ddd;
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.delete-tip {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    background: #000;
+    opacity: .7;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.add-pic:hover .delete-tip {
+    display: block;
+}
+
+.shop-authority li input[type="text"] {
+    width: 200px;
+    height: 18px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    line-height: 18px;
+    font-size: 12px;
+    outline: none;
+}
+
+.shop-authority li textarea {
+    width: 350px;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    resize: none;
+    outline: none;
+    font-size: 12px;
+}
+
+.shop-rule {
+    padding: 10px 200px 20px 20px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #666;
+}
+
+.shop-rule > h4 {
+    padding: 20px 0;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000;
+}
+
+.shop-rule > p {
+    padding: 4px 0;
+}
+
+.shop-rule > div {
+    padding-top: 20px;
+}
+/* dialog */
+
+.dialog {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    display: none;
+    width: 500px;
+    margin-left: -250px;
+    background: #fefefe;
+    z-index: 101;
+    font-family: "微软雅黑";
+}
+
+.dialog-wrap {
+    padding: 0 30px;
+}
+
+.dialog-close {
+    cursor: pointer;
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/dialog_close.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -1000px;
+    overflow: hidden;
+}
+
+.dialog-content {
+    padding: 20px 0 30px;
+}
+
+.ct {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.ct > label {
+    margin-left: 70px;
+}
+
+.ct > input {
+    width: 160px;
+    height: 18px;
+    padding: 4px;
+    outline: none;
+}
+
+.dialog-content p {
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.dialog-content p.pd {
+    padding: 0 30px;
+}
+
+.dialog-content ul {
+    width: 130px;
+    margin: 10px auto;
+    line-height: 26px;
+    font-size: 14px;
+    color: #888;
+}
+
+.dialog-content ul> li {
+    background-image: url(../images/pass.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+.dialog-content ul> .no-pass {
+    background-image: url(../images/nopass.png);
+}
+
+.dialog-title {
+    padding: 20px 0;
+    border-bottom: 1px dashed #e5ddd1;
+}
+
+.dialog-title > h2 {
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #000;
+}
+
+.btn-wrap {
+    width: 350px;
+    margin: 20px auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.btn-wrap > input {
+    margin: 0 auto;
+}
+
+.btn-wrap > input.ml {
+    margin-left: 50px;
+}
+
+.shadow {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 3000px;
+    background: #000;
+    z-index: 100;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+/* button */
+
+.tool-btn {
+    width: 62px;
+    height: 28px;
+    border: 0;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    font-size: 12px;
+}
+
+.confirm-btn {
+    display: block;
+    padding: 0 20px;
+    height: 32px;
+    border: 0;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    outline: none;
+    float: left;
+}
+
+.confirm-btn1 {
+    display: block;
+    width: 150px;
+    height: 32px;
+    border: 0;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    outline: none;
+}
+
+.use-btn {
+    background: #d03a24;
+}
+
+.use-btn:hover {
+    background: #af1f0a;
+}
+
+.cal-btn {
+    margin-left: 50px;
+    background: #d03a24;
+}
+
+.result-icon {
+    width: 68px;
+    height: 74px;
+    margin: 0 auto 15px;
+    background-image: url(../images/dialog-icon.png);
+    background-repeat: no-repeat;
+}
+
+.success {
+    background-position: 0 0;
+}
+
+.fail {
+    background-position: 0 -74px;
+}

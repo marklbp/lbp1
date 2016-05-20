@@ -1,0 +1,324 @@
+body {
+  background: #f3f3f3;
+}
+
+.bussiness-header-warp {
+  height: 69px;
+  background: #ff9246;
+  border-bottom: 1px solid #ed7011;
+  width: 100%;
+}
+
+.bussiness-header-width {
+  width: 1000px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.bussiness-header-width .header-logo {
+  width: 197px;
+  height: 44px;
+  background-image: url(../images/header-logo.jpg);
+  background-repeat: no-repeat;
+  float: left;
+  margin: 19px 0 0 17px;
+}
+
+.bussiness-header-width .header-im {
+  width: 66px;
+  border-left: 1px solid #ed7011;
+  position: relative;
+  float: right;
+  height: 70px;
+}
+
+.bussiness-header-width .header-im a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  margin: 14px 0 0 15px;
+  background-image: url(../images/header-im.png);
+  background-repeat: no-repeat;
+}
+
+.bussiness-header-width .header-im em {
+  width: 10px;
+  height: 10px;
+  background-image: url(../images/header-ball.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 46px;
+  left: 44px;
+}
+
+.bussiness-header-width .header-login {
+  float: right;
+  line-height: 70px;
+  font-size: 14px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+
+.bussiness-crumbs {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
+.bussiness-crumbs > a {
+    margin: 0 5px;
+    color: #e77d00;
+}
+
+.bussiness-crumbs > em {
+    margin: 0 5px;
+    color: #333;
+}
+
+
+.bussiness-shop-crumbs {
+    height: 58px;
+    background: #fff;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.bussiness-shop-crumbs .leftBtn, .bussiness-shop-crumbs .rightBtn {
+    display: block;
+    width: 20px;
+    height: 58px;
+    background: url(../images/shop-icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 -48px;
+    float: left;
+}
+
+.bussiness-shop-crumbs .rightBtn {
+    background-position: 0 -113px;
+    float: left;
+}
+
+.bussiness-shop-crumbs .bussiness-shop-con {
+    width: 960px;
+    float: left;
+    height: 58px;
+    overflow: hidden;
+}
+
+.bussiness-shop-crumbs .bussiness-shop-con>div{
+  width: 10000px;
+  height: 58px;
+}
+
+.bussiness-shop-crumbs .bussiness-shop-con .shop-list{
+    padding: 16px 22px;
+    height: 26px;
+    line-height: 26px;
+    float: left;
+    position: relative;
+}
+
+.bussiness-shop-crumbs .bussiness-shop-con .shop-list>b {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    line-height: 2px;
+    background-color: #ff9246;
+    width: 100%;
+    display: none;
+}
+
+.bussiness-shop-crumbs .bussiness-shop-con .shop-list .line {
+    position: absolute;
+    top: 16px;
+    right: -1px;
+    height: 26px;
+    width: 1px;
+    border-left: 1px dashed #ddd;
+    display: block;
+}
+
+.bussiness-shop-crumbs .bussiness-shop-con .shop-list em {
+    width: 20px;
+    height: 20px;
+    background: url(../images/shop-icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 -23px;
+    display: block;
+    float: left;
+    margin-top: 5px;
+}
+
+.bussiness-shop-crumbs .bussiness-shop-con .shop-list .name {
+    font-size: 14px;
+    color: #bbb;
+    padding: 0 10px;
+    line-height: 29px;
+    display: block;
+    float: left;
+}
+
+.bussiness-shop-crumbs .bussiness-shop-con .shop-list .name.c333{
+  color: #333;
+}
+
+.bussiness-shop-crumbs .bussiness-shop-con .shop-list>i,.shop-dialog i {
+    width: 29px;
+    height: 19px;
+    background: url(../images/shop-num.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: block;
+    float: left;
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+}
+
+.bussiness-shop-crumbs .shop-list.shopOn em {
+    background-position: 0 -1px;
+}
+
+.bussiness-shop-crumbs .shop-list.shopOn .name {
+    color: #e77d00;
+}
+
+.bussiness-shop-crumbs .shop-list.shopOn i {
+    background-position: 0 -19px;
+    color: #e77d00;
+    line-height: 22px;
+}
+
+.bussiness-shop-crumbs .shop-list.shopOn>b {
+    display: block;
+}
+
+.bussiness-shop-dialog {
+    position: absolute;
+    border:1px solid #efefef;
+    top: -1px;
+    left: -1px;
+    width: 100%;
+    z-index: 100;
+}
+
+.bussiness-shop-dialog .shop-dbox {
+    padding: 16px 22px;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+}
+
+.bussiness-shop-dialog .name {
+    color: #333;
+}
+
+.bussiness-shop-dialog .shop-count {
+    padding: 5px 0 5px 43px;
+    background: #fff;
+}
+
+.bussiness-shop-dialog .shop-count {
+    font-size: 12px;
+    color: #333;
+    line-height: 20px;
+}
+
+.bussiness-shop-dialog .shop-count .sl {
+    padding-left: 0px;
+}
+
+.bussiness-shop-dialog .shop-count b.On {
+    color: #e77d00;
+}
+
+.bussiness-shop-count p {
+    width: 90px;
+    float: left;
+}
+
+.bussiness-container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.bussiness-container-wrap {
+  border: 1px solid #e8e7e7;
+  width: 1000px;
+  margin: 0 auto;
+  background:#fafafa;
+}
+
+
+.bussiness-aside {
+    position: relative;
+    float: left;
+    width: 150px;
+}
+
+.bussiness-aside .aside-list {
+    font-size: 14px;
+    text-align: center;
+}
+
+.bussiness-aside .aside-list >li {
+  position: relative;
+}
+
+.bussiness-aside .aside-list >li > em{
+  position: absolute;
+  width: 10px;
+  height: 6px;
+  background-image: url(../images/menu-icon.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  display: block;
+  top: 17px;
+  right: 11px;
+}
+
+.bussiness-aside .aside-list >li > em.eOn {
+  background-position: 0 -9px;
+}
+
+.bussiness-aside .aside-list >li > a {
+  height: 40px;
+  border-bottom: 1px solid #fafafa;
+  line-height: 40px;
+  background: #efefef;
+  color: #333;
+  display: block;
+}
+
+.bussiness-aside .aside-list >li > a.bgf {
+  background: #fafafa;
+}
+
+.bussiness-aside .aside-list >li > .aside-list-link {
+  background: #fafafa;
+  padding: 8px 0;
+}
+
+.bussiness-aside .aside-list >li > .aside-list-link >li > a {
+  font-size: 12px;
+  color: #666;
+  display: block;
+  text-align: center;
+  line-height: 25px;
+}
+
+.bussiness-aside .aside-list >li > .aside-list-link > .current > a {
+    color: #e77d00;
+}
+
+.bussiness-aside .aside-list >li > .aside-list-link > li > a:hover{
+    color: #e77d00;
+}
+
+

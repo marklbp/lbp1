@@ -1,0 +1,344 @@
+@charset "utf-8";
+body {
+	background-image: url(../images/im-bak.png);
+	background-position: 0px 70px;
+	background-repeat-y: no-repeat;
+}
+.col{display: none;}
+.container {
+	height: 698px;
+	margin: 20px auto;
+	border: 1px solid #f4f5f9;
+	background-color: #ffffff;
+	position: relative;
+}
+.container * {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+.container .title {
+	height: 49px;
+	text-align: center;
+	border-bottom: 1px solid #d0d6e2;
+	background-color: #dfe5ee;
+	font-size: 26px;
+	line-height: 49px;
+	color: #72859e;
+}
+.container .title img {
+	position: relative;
+	bottom: 8px;
+}
+.container #user-list-area {
+	width: 248px;
+	height: 648px;
+	position: absolute;
+	left: 0;
+	top: 51px;
+	background-color: #eaedf4;
+}
+.container #user-list-area .checkstyle:hover{
+	background-color: #f4f7fe;
+	/*color: #FFFFFF;*/
+}
+.select-color2 {
+	background-color: #576477;
+	color: #FFFFFF;
+}
+.container #hotel-area{
+	height: 600px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+}
+.container #hotel-list li{border-bottom: 1px solid #E9E9E9;}
+.container #user-list-area .hotel-name {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 14px;
+	color: #576477;
+	cursor: pointer;
+}
+.container #user-list-area .fans-title {
+	font-size: 14px;
+	color: #6f7a8a;
+	text-align: center;
+	height: 38px;
+	line-height: 38px;
+	cursor: pointer;
+	background-color: #FFFFFF;
+} 
+.container #user-list-area .fans-title img{
+	margin-top: 6px;margin-right: 6px;
+}
+.container #user-list-area .buyer-title {
+	font-size: 14px;
+	color: #576477;
+	text-align: center;
+	height: 28px;
+	line-height: 28px;
+	cursor: pointer;
+} 
+.container #user-list-area .buyer-list{
+	
+}
+.container #user-list-area .buyer-list li{
+	position: relative;
+	height: 67px;
+	width: 100%;
+	cursor: pointer;
+}
+.container #user-list-area .buyer-list li:hover{
+	background-color: #fffeee;
+}
+.buyer-list li .buyer-head-img{
+	position: absolute;
+	top: 14px;
+	left: 12px;
+	height: 46px;
+	width: 46px;
+	border-radius:28px;
+}
+.buyer-list li .buyer-name{
+	position: absolute;
+	top: 14px;
+	left: 68px;
+	color: #333333;
+}
+.buyer-list li .buyer-dialogue-content{
+	position: absolute;
+	left: 68px;
+  	top: 38px;
+  	color: #CCCCCC;
+  	font-size: 13px;
+  	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap; 
+	width: 170px;
+	border-bottom: 1px solid #E2E2E2;
+	padding-bottom: 11px;
+}
+.buyer-list li .msg-content{
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	background-color: #e94043;
+	font-size: 12px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 20px;
+	color: #FFFFFF;
+	top: 14px;
+	right: 10px;
+	display: inline-block;
+}
+
+.container #user-list-area #btn-query-chat-record {
+	border: 1px solid #DADFEA;
+	color: #8096b7;
+	position: absolute;
+	font-size: 14px;
+	width: 218px;
+	height: 34px;
+	bottom: 14px;
+	left: 16px;
+	background-color: transparent;
+}
+
+
+/*对话框区域*/
+.container #dialogue-area {
+	position: absolute;
+	left: 249px;
+	width: 751px;
+	height: 648px;
+	z-index: 2;
+	background-color: #FFFFFF;
+}
+.container #fans-area{position: absolute;left: 0;right: 172px;;height: 100%;top: 0;border-left: 1px solid #dadfea;border-right: 1px solid #dadfea;}
+.container #dialogue-area #search-area {
+	background-color: #f4f5f9;
+	height: 48px;
+	font-size: 14px;
+	color: #333333;
+	line-height: 48px;
+	position: absolute;
+	width: 100%;
+}
+.container #dialogue-area #search-area #fans-group {
+	margin-left: 40px;
+	font-size: 14px;
+}
+.container #dialogue-area #search-area #input-username {
+	height: 28px;
+	width: 206px;
+	position: absolute;
+	top: 9px;
+	border: 1px solid #E7E7EB;
+	right: 20px;
+	padding-left: 4px;
+	padding-right: 24px;
+}
+.container #dialogue-area #search-area .search-banner {
+	width: 24px;
+	height: 24px;
+	background-image: url(../images/im-search-banner.png);
+	background-color: #FFFFFF;
+	position: absolute;
+	background-repeat:no-repeat;
+	top: 12px;
+	right: 22px;
+}
+.container #dialogue-area #dialogue-list-area{
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 100%;
+}
+.container #dialogue-area #dialogue-list-area li{
+	height: 74px;line-height: 50px;font-size: 14px;color: #333333;position: relative;width: 100%;border-bottom: 1px solid #E9ECF2;
+}
+.container #dialogue-area #dialogue-list-area li .img-head{
+	width: 50px;height: 50px;margin:12px 28px 12px 40px;
+}
+.container #dialogue-area #dialogue-list-area li .online{
+	position: absolute;background-color: #5bb76c;width: 8px;height: 8px;border: 1px solid #FFFFFF;border-radius: 8px;left: 80px;top: 52px;
+}
+.container #dialogue-area #dialogue-list-area li .fans-name{
+	line-height: 50px;color: #333333;font-size: 14px;
+}
+.container #dialogue-area #dialogue-list-area li .btn-contact{
+	height: 29px;background-color: #F4F5F9;border: 1px solid #E7E7EB;flood-color: #333333;padding: 0 15px;position: absolute;right: 84px;top: 22px;
+}
+.container #dialogue-area #ul-paginator {
+ 	position: absolute;
+ 	bottom: 12px;
+ 	right: 10px;
+ 	border: 1px solid #e7e7eb;
+ 	height: 32px;
+ 	border-right:0;
+ }
+ .container #dialogue-area #ul-paginator li {
+ 	display: inline-block;
+ 	width: 37px;
+ 	height: 34px;
+ 	float: left;
+ 	line-height: 32px;
+ 	border-right: 1px solid #e7e7eb;
+ 	text-align: center;
+ 	cursor: pointer;
+ }
+.container #dialogue-area #ul-paginator .paginator-prev,.container #dialogue-area #ul-paginator .paginator-next{margin: 8px 0 0 12px;}
+#paginator-prev{width: 0px;height: 0px;border-right:8px solid #9e9e9e;border-top: 8px solid transparent;border-bottom:8px solid transparent;display: inline-block;margin: 8px 2px 0 0px;}
+#paginator-next{width: 0px;height: 0px;border-left:8px solid #9e9e9e;border-top: 8px solid transparent;border-bottom:8px solid transparent;display:inline-block;margin: 8px 0 0 2px;}
+.current-page{color: #66a5e4;}
+.pagebtn:hover{color: #66a5e4;}
+#paginator-prev:hover{border-right-color:#66a5e4;}
+#paginator-next:hover{border-left-color:#66a5e4;}
+
+/*对话框*/
+.container #talk-area{position: absolute;left: 249px;height: 648px;top: 50px;right: 0;background-color: #FFFFFF;z-index: 3;background-color: #FFFFFF;}
+.container #talk-area .talk-area-list{width: 100%;height: 500px;}
+.container #talk-default{position: absolute;left: 250px;right: 50px;height:648px;text-align: center;color: #bcc3cb;font-size: 18px;}
+.container #talk-default img{display: block;margin: 240px auto 0 auto;}
+
+/*聊天对话记录框*/
+.talk-title{
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	background-color: #F4F5F9;
+	line-height: 40px;
+}
+/*在线状态（后台无相关数据所以抛弃不用）*/
+.talk-title .line-state{width: 8px;height: 8px;border-radius: 8px;position: absolute;top: 16px;left: 20px;display: none;}
+.talk-title .online{background-color: #25ce44;}
+.talk-title .offline{background-color: #CCCCCC;}
+.talk-title .name{color: #576477;font-size:14px;margin-left: 32px;}
+.talk-title .cancel{background-image: url(../images/im-cancel2.png);height: 24px;width: 24px;position: absolute;top: 8px;right: 10px;}
+.talk-title .cancel:hover{background-image: url(../images/im-cancel1.png);}
+
+.talk-content{position: absolute;left: 20px;right: 20px;top: 40px;height: 400px;}
+.talk-content li{position: relative;width: 100%;display: block;overflow: hidden;}
+.talk-content .more{font-size: 12px;color: #758faf;text-align: center;line-height: 34px;cursor: pointer;display:block;margin: 0 auto;}
+.talk-content .time{font-size: 12px;color: #BBBBBB;text-align: center;line-height:60px;}
+
+.talk-content .left{position: relative;}
+.talk-content .left .angle{position: absolute;top: 12px;left: 50px;}
+.talk-content .left .head-img{width: 40px;height: 40px;border-radius: 40px;left: 0px;position: absolute;top: 2px;}
+.talk-content .left .talk-details {
+	display: inline-block;
+	color: #576477;
+	font-size: 12px;
+	background-image: url(../images/im-talk-details-left-bg.png);
+	line-height: 40px;
+	border-radius: 10px;
+	padding: 0 14px;
+	margin: 2px 0 8px 57px;
+}
+.talk-content .right{position: relative;}
+.talk-content .business-name{color: #888888;font-size: 12px;line-height: 38px;display: block;text-align: right;}
+.talk-content .right .angle{position: absolute;top: 12px;right: 50px;}
+.talk-content .right .head-img{width: 40px;height: 40px;border-radius: 40px;right: 0px;position: absolute;top: 2px;}
+.talk-content .right .talk-details {
+	display: inline-block;
+	color: #FFFFFF;
+	font-size: 12px;
+	background-image: url(../images/im-talk-details-right-bg.png);
+	border-radius: 10px;
+	padding: 0 14px;
+	line-height: 40px;
+	margin: 2px 57px 8px 0;
+	float: right;
+}
+/*对话输入框*/
+.container #talk-area #inpput-area{position: absolute;width: 100%;height: 148px;bottom: 0;}
+.container #talk-area #inpput-area #input-tool{position: absolute;top: 1px;width: 100%;left: 0;border-top: 1px solid #dadfea;height: 36px;}
+.container #talk-area #inpput-area #input-tool .face-banner{
+	margin:  6px 0 6px 16px;
+}
+.container #talk-area #inpput-area #input-tool .img-banner{
+	margin:  6px 0 6px 12px;
+}
+.container #talk-area #inpput-area #input-tool #connect-talk-record{
+	color: #758FAF;float: right;margin-right: 20px;font-size: 12px;line-height: 36px;
+}
+.container #talk-area #inpput-area textarea{width: 100%;position: absolute;left: 0;right: 2px;top: 36px;bottom: 0px;border: 0;}
+.container #talk-area #inpput-area textarea:focus{}
+/*区域选择*/
+.container .other-area {
+	width: 172px;
+	height: 648px;
+	position: absolute;
+	right: 0;
+}
+.container .other-area #area-list {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.container .other-area #area-list li {
+	font-size: 14px;
+	color: #333333;
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	display: inline-block;
+	cursor: pointer;
+}
+.container .other-area #area-list li:hover{
+	background-color:#F8F9FB;
+}
+.container .other-area #area-list li span {
+	margin-left: 18px;
+}
+.container .other-area #area-list li:hover {
+	background-color: #F8F9FB;
+}
+.select-color1 {
+	background-color: #F8F9FB;
+}

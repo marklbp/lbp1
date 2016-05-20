@@ -1,0 +1,783 @@
+body {
+  background-color: #f3f3f3;
+}
+
+.bussiness-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.bussiness-crumbs {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
+.bussiness-crumbs > a {
+    margin: 0 5px;
+    color: #e77d00;
+}
+
+.bussiness-crumbs > em {
+    margin: 0 5px;
+    color: #333;
+}
+
+.bussiness-container-wrap{
+    margin-bottom: 20px;
+    background: #fff;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    border: 1px solid #e8e7e7;
+    width: 998px;
+    background:#fafafa;
+}
+
+/*md_form_text*/
+
+.md_form_text {
+  padding: 5px;
+  width: 170px;
+  zoom: 1;
+  vertical-align: top;
+  border: 1px solid #dedede;
+  float: left;
+}
+
+.md_form_text > input {
+  float: left;
+  width: 100%;
+  height: 22px;
+  line-height: 22px;
+  overflow: visible;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+
+/*md_form_select*/
+
+.md_form_select {
+  position: relative;
+  float: left;
+  font-size: 12px;
+  zoom: 1;
+  vertical-align: top;
+  color: #4d4d4d;
+}
+
+.md_form_select .md_form_select_icon {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  width: 10px;
+  height: 5px;
+  background-image: url(../images/md_form_select.png);
+  background-repeat: no-repeat;
+}
+
+.md_form_select .md_form_select_txt {
+  display: block;
+  padding-right: 30px;
+  padding-left: 5px;
+  width: 65px;
+  height: 32px;
+  line-height: 32px;
+  cursor: pointer;
+  text-align: left;
+  border: 1px solid #dedede;
+  background-color: #fff;
+}
+
+.md_form_select .md_form_select_options {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  display: none;
+  width: 100%;
+  font-family: inherit;
+  text-align: left;
+  border-bottom: 1px solid #dedede;
+  background-color: #fff;
+}
+
+.md_form_select .md_form_select_options > span {
+  display: block;
+  padding: 0 5px;
+  height: 32px;
+  line-height: 32px;
+  font-family: inherit;
+  border-right: 1px solid #dedede;
+  border-left: 1px solid #dedede;
+  vertical-align: top;
+}
+
+.md_form_select .md_form_select_options > span:hover {
+  cursor: pointer;
+  background-color: #f7f7f7;
+  height: 32px;
+  line-height: 32px;
+  vertical-align: top;
+}
+
+.md_form_select:hover .md_form_select_options {
+  display: block;
+}
+
+/* button */
+
+.tool-btn {
+  width: 62px;
+  height: 30px;
+  border: 0;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.dialog-btn {
+  width: 110px;
+  height: 32px;
+  border: 0;
+  line-height: 32px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+}
+
+.use-btn {
+  background: #d03a24;
+}
+
+.use-btn:hover {
+  background: #af1f0a;
+}
+
+.confirm-btn {
+  background-color: #d03a24;
+}
+
+.cancle-btn {
+  background-color: #bbb;
+}
+
+
+/* list */
+
+.refund-list {
+  min-height: 755px;
+  background: #fff;
+  padding: 22px;
+  overflow: hidden;
+}
+
+.refund-list > h3 {
+  margin-bottom: 20px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #333;
+  overflow: hidden;
+}
+
+.refund-list > .search-condition {
+  height: 32px;
+  line-height: 32px;
+}
+
+
+/*search area*/
+
+.search_title {
+  float: left;
+  zoom: 1;
+  margin: 0 10px 0 120px;
+}
+
+.search_title:first-child {
+  margin-left: 0;
+}
+
+
+/*.search-condition > label {
+  float: left;
+  width: 54px;
+  margin-right: 10px;
+  text-align: center;
+  color: #888;
+}
+
+.search-condition input[type="text"] {
+  width: 200px;
+  height: 16px;
+  border: 1px solid #dedede;
+  padding: 7px 4px;
+  line-height: 16px;
+}
+
+.search-condition > .stat-list {
+  position: relative;
+  width: 150px;
+  height: 30px;
+  border: 1px solid #dedede;
+  padding-left: 10px;
+  line-height: 30px;
+  background-image: url(../images/select.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+*/
+
+.stat-list > b {
+  width: 140px;
+  display: block;
+}
+
+.search-condition >button {
+  float: right;
+}
+
+.refund-list .refund-title {
+  width: 100%;
+  height: 32px;
+  margin-top: 40px;
+  padding: 9px 0;
+  background: #efefef;
+  line-height: 32px;
+  overflow: hidden;
+}
+
+.refund-list .refund-title > dd {
+  float: left;
+  text-align: center;
+  color: #666;
+}
+
+.refund-list .refund-title > .order-content {}
+
+.order-id {
+  width: 80px;
+}
+
+.order-content {
+  width: 300px;
+  text-align: left;
+}
+
+.order-content > span {
+  margin-left: 15px;
+}
+
+.order-content > div {
+  margin: 0 5px 0 10px;
+  text-align: left;
+}
+
+.order-sum {
+  width: 100px;
+  padding: 0 2px;
+  line-height: 16px;
+}
+
+.order-sum > i {
+  display: block;
+}
+
+.order-sum > p {
+  line-height: 20px;
+  text-align: center;
+  color: #888;
+}
+
+.order-time {
+  width: 100px;
+}
+
+.refund-state {
+  width: 72px;
+}
+
+.order-sum > div,
+.refund-state > div {
+  margin: 0 5px;
+  line-height: 20px;
+  text-align: center;
+  color: #666;
+}
+
+.order-option {
+  width: 104px;
+}
+
+.refund-list table {
+  width: 100%;
+  border: 1px solid #eee;
+  border-collapse: separate;
+  background-color: #fcfcfc;
+}
+
+.refund-list table .even {
+  background-color: #f6f6f6;
+}
+
+.refund-list table td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.refund-list .order-code {
+  height: 30px;
+  border: 1px solid #fff;
+  background: #f6f6f6;
+  text-align: left;
+  line-height: 30px;
+  font-weight: normal;
+  color: #888;
+}
+
+.refund-list .order-code em {
+  margin: 0 30px 0 15px;
+  color: #333;
+}
+
+.refund-list .order-code span {
+  margin-right: 30px;
+  color: #888;
+}
+
+.order-pic {
+  float: left;
+  width: 78px;
+  height: 78px;
+  margin-right: 12px;
+  border: 1px solid #efefef;
+  overflow: hidden;
+}
+
+.order-pic > img {
+  width: 100%;
+}
+
+.order-name {
+  overflow: hidden;
+}
+
+.order-name > p {
+  min-height: 19px;
+  max-height: 38px;
+  overflow: hidden;
+  line-height: 20px;
+  color: #666;
+}
+
+.order-name >p > span {
+  display: block;
+}
+
+.order-name > .get-id {
+  margin-top: 6px;
+  line-height: 18px;
+  color: #bbb;
+}
+
+.order-name > .get-id em {
+  padding: 0 6px;
+}
+
+.refund-list table td > a {
+  display: block;
+  margin: 2px 1px 0;
+  color: #e77d00;
+  text-align: center;
+}
+
+.refund-list table td > a:hover {
+  text-decoration: underline;
+}
+
+.arbitrament {
+  color: #d03a24 !important;
+}
+
+.refund-none {
+  padding: 30px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+.refund-page {
+  margin-top: 15px;
+  text-align: right;
+  font-size: 0;
+}
+
+.refund-page > em,
+.refund-page > span,
+.refund-page > i,
+.refund-page > b {
+  display: inline-block;
+  min-width: 24px;
+  height: 24px;
+  margin-left: 4px;
+  line-height: 24px;
+  font-size: 12px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.refund-page > em,
+.refund-page > b {
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+  background-color: #f2f2f2;
+  color: #888;
+}
+
+.refund-page > span,
+.refund-page > em:hover,
+.refund-page > b:hover {
+  border: 1px solid #e77d00;
+  background-color: #e77d00;
+  color: #fff;
+}
+
+.refund-page > b {
+  text-indent: -100000px;
+}
+
+.refund-page > b {
+  background-repeat: no-repeat;
+  background-image: url(../images/next-button.png);
+  background-position: center center;
+}
+
+.refund-page > b:first-child {
+  background-repeat: no-repeat;
+  background-image: url(../images/prev-button.png);
+  background-position: center center;
+}
+
+.refund-page > b:hover {
+  background-color: #e77d00;
+  background-repeat: no-repeat;
+  background-image: url(../images/next-button-hover.png);
+  background-position: center center;
+}
+
+.refund-page > b:first-child:hover {
+  background-color: #e77d00;
+  background-repeat: no-repeat;
+  background-image: url(../images/prev-button-hover.png);
+  background-position: center center;
+}
+
+.error-tip {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  display: none;
+  height: 30px;
+  border: 1px solid #fa2727;
+  padding: 0 20px;
+  line-height: 30px;
+  margin-top: -15px;
+  background: #ffafaf;
+  color: #fa2727;
+  font-size: 12px;
+}
+
+
+/* dialog */
+
+.dialog {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  display: none;
+  width: 550px;
+  margin-left: -265px;
+  background: #fefefe;
+  z-index: 101;
+  font-family: "微软雅黑";
+}
+
+.dialog-wrap {
+  padding: 0 30px;
+}
+
+.dialog-close {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/dialog_close.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-indent: -1000px;
+  overflow: hidden;
+}
+
+.dialog-content {
+  padding: 0 0 20px;
+}
+
+.dialog-title {
+  padding: 25px 0;
+  border-bottom: 1px dashed #e5ddd1;
+}
+
+.dialog-title > h2 {
+  line-height: 24px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #000;
+}
+
+.confirm-info {
+  margin: 35px 0;
+  line-height: 24px;
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+}
+
+.btn-wrap {
+  margin-bottom: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.dialog-form {
+  padding: 20px 0 10px 0;
+  font-size: 14px;
+}
+
+.dialog-form li {
+  min-height: 32px;
+  padding: 8px 0;
+  line-height: 32px;
+  color: #666;
+  overflow: hidden;
+}
+
+.dialog-form label {
+  float: left;
+  width: 80px;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.dialog-form li>div > input[type="text"] {
+  float: left;
+  width: 110px;
+  height: 16px;
+  margin-right: 10px;
+  border: 1px solid #dedede;
+  padding: 7px 10px;
+  line-height: 16px;
+}
+
+.select-date {
+  position: relative;
+  left: -10px;
+  width: 90px;
+  height: 30px;
+  border: 0;
+  padding: 0 10px;
+  outline: none;
+}
+
+.dialog-form li>div {
+  height: 32px;
+  overflow: hidden;
+  font-size: 12px;
+}
+
+.dialog-form li em {
+  margin-left: 10px;
+  color: #888;
+}
+
+.select-list {
+  cursor: pointer;
+  position: relative;
+  float: left;
+  display: inline-block;
+  min-width: 110px;
+  height: 30px;
+  padding: 0 10px;
+  border: 1px solid #dedede;
+  line-height: 30px;
+  background-image: url(../images/select.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  *display: inline;
+  *zoom: 1;
+}
+
+.select-list > span {
+  cursor: default;
+  padding-right: 8px;
+}
+
+.sku-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 160px;
+  min-height: 28px;
+  max-height: 140px;
+  display: none;
+  border: 1px solid #dedede;
+  background: #fff;
+  line-height: 28px;
+  font-size: 12px;
+  overflow: auto;
+  z-index: 105;
+}
+
+.sku-list > dd {
+  cursor: pointer;
+  height: 28px;
+  padding: 0 8px;
+  color: #888;
+}
+
+.sku-list> dd:hover {
+  background: #eee;
+}
+
+.last-list {
+  margin-left: 6px;
+}
+
+.shadow {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  width: 100%;
+  height: 3000px;
+  background: #000;
+  z-index: 100;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+.hide {
+  display: none;
+}
+
+
+/*2015.8.18hxq*/
+
+i,
+em {
+  font-style: normal;
+}
+
+.bg_gllist {}
+
+.bg_gllist li {
+  padding: 10px 0;
+  height: 83px;
+  text-align: center;
+}
+
+.bg_gllist li:nth-child(2n) {
+  background: #efefef;
+}
+
+.bg_gllist li div {
+  float: left;
+}
+
+.bg_gllist .list_goodsmess {
+  width: 300px;
+  overflow: hidden;
+}
+
+.bg_gllist .list_goodsmess img {
+  border: 1px solid #ccc;
+  width: 80px;
+  height: 80px;
+  vertical-align: top;
+}
+
+.bg_gllist .list_goodsmess .messa {
+  display: inline-block;
+  width: 82px;
+  height: 82px;
+}
+
+.bg_gllist .list_goodsmess .messb {
+  vertical-align: top;
+  display: inline-block;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.bg_gllist .list_goodsmess .messb i {
+  display: block;
+  padding-bottom: 5px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.bg_gllist .list_goodsmess .messb .f-colora {
+  color: #666;
+}
+
+.bg_gllist .list_goodsmess .messb .f-colorb {
+  color: #bbb;
+}
+
+.list_goodsid {
+  width: 80px;
+  text-align: center;
+  line-height: 83px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.list_goodstprice {
+  width: 104px;
+  text-align: center;
+  line-height: 83px;
+  color: #666;
+  font-weight: bold;
+}
+
+.list_goodsposi {
+  width: 100px;
+  text-align: center;
+  line-height: 83px;
+}
+
+.list_goodsstaus {
+  width: 72px;
+  text-align: center;
+  line-height: 83px;
+}
+
+.list_goodsdo {
+  padding-top: 28px;
+  width: 104px;
+  text-align: center;
+}
+
+.list_goodsdo a {
+  display: block;
+  line-height: 22px;
+  color: #f60;
+}
+
+.red {
+  color: #d03a24;
+}

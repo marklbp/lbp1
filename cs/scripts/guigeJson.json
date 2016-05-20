@@ -1,0 +1,61 @@
+{
+    "skuSimpleList": [
+        {
+            "skuPrice": 100,
+            "skuStandard": "1--1_2--1",
+            "stockNum": 1009
+        },
+        {
+            "skuPrice": 222,
+            "skuStandard": "1--1_2--2",
+            "stockNum": 1010
+        },
+        {
+            "skuPrice": 222,
+            "skuStandard": "1--2_2--2",
+            "stockNum": 1010
+        },
+        {
+            "skuPrice": 122,
+            "skuStandard": "1--2_2--1",
+            "stockNum": 1010
+        }
+    ],
+    "updateAttrList": [
+        {
+            "enabled": 1,
+            "img": "img",
+            "standardName": "红色",
+            "standardStr": "1--1"
+        },
+        {
+            "enabled": 1,
+            "img": "img",
+            "standardName": "白色",
+            "standardStr": "1--2"
+        },
+        {
+            "enabled": 1,
+            "standardName": "41码",
+            "standardStr": "2--1"
+        },
+        {
+            "enabled": 1,
+            "standardName": "42码",
+            "standardStr": "2--2"
+        },
+	{
+            "enabled": 0,
+            "standardName": "43码",
+            "standardStr": "2--3"
+        }
+    ],
+    "removeAttrList": [
+        {
+            "enabled": 1,
+            "img": "img",
+            "standardName": "红色",
+            "standardStr": "1-50"
+        }
+	]
+}

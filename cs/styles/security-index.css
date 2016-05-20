@@ -1,0 +1,413 @@
+﻿body {
+    background-color: #f3f3f3;
+}
+
+table {
+    border-spacing: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.bussiness-crumbs {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
+.bussiness-crumbs > a {
+    margin: 0 5px;
+    color: #e77d00;
+}
+
+.bussiness-crumbs > em {
+    margin: 0 5px;
+    color: #333;
+}
+
+.bussiness-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.bussiness-container-wrap {
+    margin-bottom: 20px;
+    background: #fff;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    border: 1px solid #e8e7e7;
+    width: 998px;
+    background:#fafafa;
+}
+
+.error-tip {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    display: none;
+    height: 30px;
+    border: 1px solid #fa2727;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    padding: 0 20px;
+    line-height: 30px;
+    margin-top: -15px;
+    background: #ffafaf;
+    color: #fa2727;
+    font-size: 12px;
+    z-index: 105;
+}
+/* button */
+
+.tool-btn {
+    width: 62px;
+    height: 28px;
+    border: 0;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+}
+
+.tool-btn-auto {
+    width: auto;
+    padding: 0 20px;
+}
+
+.punlish-btn {
+    width: auto;
+    height: 36px;
+    padding: 0 80px;
+    line-height: 36px;
+    background: #d03a24;
+}
+
+.dialog-btn {
+    width: 110px;
+    height: 32px;
+    border: 0;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.use-btn {
+    background: #d03a24;
+}
+
+.use-btn:hover {
+    background: #af1f0a;
+}
+
+input.disable-btn {
+    cursor: default;
+    background: #bbb;
+}
+/* 安全中心  */
+
+.security {
+    min-height: 755px;
+    padding: 22px;
+    overflow: hidden;
+    background:#fff;
+}
+
+.security strong {
+    font-weight: normal;
+}
+
+.user-info {
+    padding-bottom: 40px;
+    position: relative;
+    zoom: 1;
+}
+
+.user-info:after,
+.user-bind:after,
+.user-bind .bind-box:after,
+.user-grade:after,
+.bind-info:after {
+    content: '';
+    display: block;
+    font-size: 0;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+
+.user-info .txbox {
+    float: left;
+    width: 75px;
+    height: 75px;
+    border: #e5e3df 1px solid;
+    background: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user-info .txbox img {
+    width: 75px;
+    height: 75px;
+}
+
+.safeInfo {
+    display: inline-block;
+    padding-left: 25px;
+    line-height: 26px;
+    color: #666;
+}
+
+.user-grade {
+    height: 28px;
+    zoom: 1;
+}
+
+.user-grade > span {
+    float: left;
+}
+
+.user-grade .bar {
+    margin-right: 15px;
+    width: 130px;
+    float: left;
+    position: relative;
+    left: 5px;
+    top: 11px;
+    background: #efefef;
+    height: 5px;
+    box-shadow: 0 2px 1px rgba(213, 213, 213, 1) inset;
+    -moz-box-shadow: 0 2px 1px rgba(213, 213, 213, 1) inset;
+    -webkit-box-shadow: 0 2px 1px rgba(213, 213, 213, 1) inset;
+    border-radius: 5px;
+}
+
+.user-grade .bar .ing {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.user-grade > em {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bgGradeH {
+    background: #91cb11;
+}
+
+.bgGradeM {
+    background: #ff9d03;
+}
+
+.bgGradeL {
+    background: #fc1f04;
+}
+
+.fontGradeH {
+    color: #91cb11;
+}
+
+.fontGradeM {
+    color: #ff9d03;
+}
+
+.fontGradeL {
+    color: #fc1f04;
+}
+
+.user-grade .why-box {
+    float: left;
+    margin-left: 6px;
+    position: relative;
+}
+
+.user-grade .why {
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/security.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 5px;
+}
+
+.user-grade .why:hover + .whyTipBox {
+    display: block;
+}
+
+.user-grade .whyTipBox {
+    position: absolute;
+    top: 19px;
+    left: -20px;
+    margin-left: -1px;
+    z-index: 10;
+    display: none;
+}
+
+.user-grade .wtbArrow {
+    position: relative;
+    top: 0;
+    margin-bottom: -1px;
+    overflow: hidden;
+    z-index: 1;
+    width: 16px;
+    height: 9px;
+}
+
+.user-grade .wtbArrow .upb {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 0px;
+    color: #dddbdb;
+    font-size: 16px;
+    font-family: Simsun;
+    font-weight: normal;
+}
+
+.user-grade .wtbArrow .up {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 1px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Simsun;
+    font-weight: normal;
+}
+
+.user-grade .wtbMain {
+    position: relative;
+    padding: 5px;
+    background: #fff;
+    line-height: 1.5;
+    border: 1px solid #dddbdb;
+    box-shadow: 0 1px 1px #eee;
+    border-radius: 3px;
+}
+
+.user-bind {
+    margin-bottom: 40px;
+    zoom: 1;
+}
+
+.bind-box {
+    float: left;
+    width: 330px;
+    padding: 0 30px;
+    zoom: 1;
+    border-left: #e4dcd0 1px dashed;
+}
+
+.bind-box:first-child {
+    border-left: none;
+    padding: 0 30px 0 0;
+}
+
+.bind-box > i {
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+    background-image: url(../images/security.png);
+    background-repeat: no-repeat;
+}
+
+.user-bind .phone {
+    background-position: 0 -128px;
+}
+
+.user-bind .mail {
+    background-position: 0 -192px;
+}
+
+.bind-box > .bind-operate {
+    display: none;
+    overflow: hidden;
+}
+
+.bind-box > .bind-operate > .bind-info:first-child {
+    margin-top: 0;
+}
+
+.bind-info {
+    margin-top: 15px;
+    zoom: 1;
+}
+
+.bind-info > strong {
+    float: left;
+    color: #666;
+}
+
+.bind-info > strong > b {
+    padding-left: 10px;
+    font-weight: normal;
+}
+
+.bind-info > em {
+    float: left;
+    padding-left: 20px;
+    color: #bbb;
+    background-image: url(../images/security.png);
+    background-position: 0 -32px;
+    background-repeat: no-repeat;
+}
+
+.bind-info > em.ok {
+    background-position: 0 -64px;
+}
+
+.bind-info > em > span {
+    padding-left: 20px;
+}
+
+.bind-info > span {
+    float: right;
+}
+
+.bind-info > span > a {
+    color: #e77d00;
+}
+
+.user-password {
+    padding: 40px 0;
+    border-top: #e4dcd0 1px dashed;
+}
+
+.password-info {
+    margin-bottom: 20px;
+    color: #888;
+}
+
+.password-info strong {
+    padding-left: 100px;
+}
+
+.bind-info .modify,
+.password-info .modify {
+    float: right;
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/security.png);
+    background-position: 0 -96px;
+    background-repeat: no-repeat;
+}
+
+.password-info .modify {
+    display: none;
+}
+
+.password-info .bind {
+    display: none;
+    float: right;
+    color: #e77d00;
+}

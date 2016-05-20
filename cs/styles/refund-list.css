@@ -1,0 +1,615 @@
+body {
+    background-color: #f3f3f3;
+}
+
+input{outline: none;}
+
+.bussiness-crumbs {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
+.bussiness-crumbs > a {
+    margin: 0 5px;
+    color: #e77d00;
+}
+
+.bussiness-crumbs > em {
+    margin: 0 5px;
+    color: #333;
+}
+
+.bussiness-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.bussiness-container-wrap {
+    margin-bottom: 20px;
+    background: #fff;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    border: 1px solid #e8e7e7;
+    width: 998px;
+    background:#fafafa;
+}
+/* list */
+
+.refund-list {
+    min-height: 755px;
+    padding: 22px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.refund-list > h3 {
+    margin-bottom: -15px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+}
+
+.refund-list .refund-title {
+    width: 100%;
+    height: 40px;
+    background: #efefef;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.refund-list .refund-title > dd {
+    float: left;
+    height: 40px;
+    text-align: center;
+    color: #333;
+}
+
+.refund-list .refund-title > .order-content {
+    text-align: left;
+}
+
+.order-content {
+    width: 290px;
+    text-align: left;
+}
+
+.order-content > span {
+    margin-left: 15px;
+}
+
+.order-content > div {
+    margin: 0 10px 0 15px;
+    text-align: left;
+}
+
+.order-sum {
+    width: 135px;
+}
+
+.order-sum > p {
+    line-height: 20px;
+    text-align: center;
+    color: #888;
+}
+
+.refund-state {
+    width: 110px;
+}
+
+.order-sum > div,
+.refund-state > div {
+    margin: 0 5px;
+    line-height: 20px;
+    text-align: center;
+    color: #666;
+}
+
+.order-option {
+    width: 100px;
+}
+
+.refund-list table {
+    width: 100%;
+    border: 1px solid #eee;
+    border-collapse: separate;
+}
+
+.refund-list table {
+    border-top: 1px solid #eee;
+}
+
+.refund-list table td {
+    padding: 15px 0;
+    text-align: center;
+    vertical-align: top;
+}
+
+.refund-list .order-code {
+    height: 30px;
+    background: #f6f6f6;
+    text-align: left;
+    line-height: 30px;
+    font-weight: normal;
+    color: #888;
+}
+
+.refund-list .order-code em {
+    margin: 0 30px 0 15px;
+    color: #333;
+}
+
+.refund-list .order-code span {
+    margin-right: 30px;
+    color: #888;
+}
+
+.order-pic {
+    position: relative;
+    float: left;
+    width: 78px;
+    height: 78px;
+    margin-right: 15px;
+    border: 1px solid #efefef;
+    overflow: hidden;
+}
+
+.order-pic > img {
+    width: 100%;
+}
+
+.order-pic> div.pai {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 31px;
+    height: 18px;
+    background-image: url(../images/pai.png);
+    background-repeat: no-repeat;
+}
+
+.order-pic> div.baog {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 31px;
+    height: 18px;
+    background-image: url(../images/gou.png);
+    background-repeat: no-repeat;
+}
+
+.order-name {
+    overflow: hidden;
+}
+
+.order-name > p {
+    overflow: hidden;
+    line-height: 20px;
+    color: #666;
+}
+
+.order-name > div {
+    margin-top: 20px;
+    color: #888;
+}
+
+.refund-list table td > a {
+    display: inline-block;
+    margin-top: 2px;
+    color: #e77d00;
+}
+
+.refund-list table td > a:hover {
+    text-decoration: underline;
+}
+
+.arbitrament {
+    color: #d03a24 !important;
+}
+
+.refund-none {
+    padding: 30px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.refund-page {
+    margin-top: 15px;
+    text-align: right;
+    font-size: 0;
+}
+
+.refund-page > em,
+.refund-page > span,
+.refund-page > i,
+.refund-page > b {
+    display: inline-block;
+    min-width: 24px;
+    height: 24px;
+    margin-left: 4px;
+    line-height: 24px;
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.refund-page > em,
+.refund-page > b {
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+    background-color: #f2f2f2;
+    color: #888;
+}
+
+.refund-page > span,
+.refund-page > em:hover,
+.refund-page > b:hover {
+    border: 1px solid #e77d00;
+    background-color: #e77d00;
+    color: #fff;
+}
+
+.refund-page > b {
+    text-indent: -100000px;
+}
+
+.refund-page > b {
+    background-repeat: no-repeat;
+    background-image: url(../images/next-button.png);
+    background-position: center center;
+}
+
+.refund-page > b:first-child {
+    background-repeat: no-repeat;
+    background-image: url(../images/prev-button.png);
+    background-position: center center;
+}
+
+.refund-page > b:hover {
+    background-color: #e77d00;
+    background-repeat: no-repeat;
+    background-image: url(../images/next-button-hover.png);
+    background-position: center center;
+}
+
+.refund-page > b:first-child:hover {
+    background-color: #e77d00;
+    background-repeat: no-repeat;
+    background-image: url(../images/prev-button-hover.png);
+    background-position: center center;
+}
+
+.error-tip {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    display: none;
+    height: 30px;
+    border: 1px solid #fa2727;
+    padding: 0 20px;
+    line-height: 30px;
+    margin-top: -15px;
+    background: #ffafaf;
+    color: #fa2727;
+    font-size: 12px;
+}
+
+.goodsManageSearch {
+    width: 803px;
+    margin-bottom: 20px;
+}
+.goodsManageSearch ul {
+    display: block;
+    width: 100%;
+}
+.goodsManageSearch ul li {
+    height: 34px;
+    /*line-height:34px;*/
+}
+.goodsManageSearch ul li em {
+    float: left;
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    margin-right: 10px;
+}
+.goodsManageSearch ul li span.dateTo {
+    display: block;
+    float: left;
+    width: 14px;
+    height: 34px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+}
+.goodsManageSearch ul li div.select {
+    float: left;
+    display: inline;
+    height: 26px;
+    border: #dedede 1px solid;
+    position: relative;
+    padding-top: 6px;
+}
+.goodsManageSearch ul li div.select input {
+    border: #fff 0px solid;
+    height: 19px;
+}
+.goodsManageSearch ul li div.select i {
+    display: block;
+    width: 18px;
+    height: 24px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 3;
+    background: url(../images/md_form_icon.png) no-repeat center;
+    top: 4px;
+}
+.goodsManageSearch ul li div.w226 {
+    width: 216px;
+    padding-left: 10px;
+}
+.goodsManageSearch ul li div.w226 .goodsname {
+    width: 206px;
+}
+.goodsManageSearch ul li div.w166 {
+    width: 168px;
+    padding-left: 10px;
+}
+.goodsManageSearch ul li div.w166 .goodslabel {
+    width: 146px;
+    border: none;
+}
+.goodsManageSearch ul li div.w166 #pub-tags-input {} .goodsManageSearch ul li div.w166 #pub-tags-box {
+    width: 166px;
+    left: -1px;
+    z-index: 10;
+}
+.goodsManageSearch ul li div.w166 #pub-tags-rec {}
+/*.goodsManageSearch ul li div.w166 i{left:146px;}*/
+
+.goodsManageSearch ul li div.w124 {
+    width: 178px;
+    /*padding-left:10px;*/
+}
+.goodsManageSearch ul li div.w124 .auditState {
+    width: 158px;
+    border: none;
+    padding: 0px 10px;
+}
+.goodsManageSearch ul li div.w124 i {
+    width: 178px;
+    left: 0px;
+    background: url(../images/md_form_icon.png) no-repeat 152px 0px;
+}
+#goodsManageSelectAuditUl,#orderTypeStrUl {
+    display: none;
+    width: 178px;
+    position: absolute;
+    left: -1px;
+    top: 31px;
+    border: 1px solid #DEDEDE;
+    z-index: 3;
+}
+.goodsManageSelectAuditUl li {
+    height: 28px;
+    line-height: 28px;
+    background: #fff;
+    height: 28px;
+    line-height: 28px;
+    cursor: pointer;
+    padding-left: 8px;
+}
+.goodsManageSearch ul li div.w105 {
+    width: 95px;
+    padding-left: 10px;
+}
+.goodsManageSearch ul li div.w105 .upGoodsDate {
+    width: 85px;
+    border: none;
+}
+.goodsManageSearch ul li div.w105 i {
+    left: 85px;
+}
+.goodsManageSearch input[type='text'] {
+    font-size: 12px;
+}
+.goodsManageSearchBtn {
+    padding-top: 2px;
+}
+.goodsManageSearchBtn a {
+    display: block;
+    width: 58px;
+    height: 30px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+.goodsManageSearchBtn a:link {
+    background-color: #d03a24;
+}
+.goodsManageSearchBtn a:visited {
+    background-color: #d03a24;
+}
+.goodsManageSearchBtn a:hover {
+    background-color: #af1f0a;
+    color: #fff;
+}
+.goodsManageSearch .fl{
+    float: left;
+}
+
+.goodsManageSearch .fr{
+    float: right;
+}
+
+.ml48 {
+    margin-left: 48px;
+}
+.ml36 {
+    margin-left: 36px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.ml14 {
+    margin-left: 14px;
+}
+
+.batchofa{   
+    display: block;
+    width: 80px;
+    height: 28px;
+    background-color: #f5f5f5;
+    border: #d7d7d7 1px solid;
+    text-align: center;
+    line-height: 28px;
+    font-size: 12px;
+}
+.batchoftop {    
+     margin-top: 8px;
+}
+
+.ui-datepicker.ui-widget.ui-widget-content{font-size: 0.8em;}
+
+.qb-mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3000px;
+    background-color: #000;
+    z-index: 999;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    display: none;
+}
+
+.qb-popup {
+    display: none;
+    z-index: 1000;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 550px;
+    margin-left: -275px;
+    margin-top: -243px;
+}
+
+.qb-popup > .wrap {
+  padding: 20px 30px;
+  background-color: #FFF;
+}
+.qb-popup > .wrap > .title {
+  position: relative;
+  border-bottom: 1px dashed #e4dcd0;
+  padding-bottom: 20px;
+  font-size: 24px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.qb-popup > .wrap > .content{
+    padding-top: 20px;
+}
+.qb-popup > .wrap > .title > .close {
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 0;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/dialog-close.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.qb-popup > .wrap > .content > .info {
+  font-size: 12px;
+  color: #e57e7f;
+}
+.qb-popup .icon {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 25px auto;
+    background: url(../images/dialog-icon.png);
+    background-repeat: no-repeat;
+}
+.qb-popup .icon.none{
+    display: none;
+}
+.qb-popup .erricon {
+    background-position: 0 0;
+}
+.qb-popup .sucicon {
+    background-position: 0 -80px;
+}
+.qb-popup > .wrap > .content .checkBox {
+    width: 85px;
+    margin: 0 auto;
+}
+.qb-popup > .wrap > .content p {
+  color: #666;
+  font-size: 18px;
+  text-align: center;
+}
+.qb-popup > .wrap > .content .p1 {
+    padding: 25px 0 15px 0;
+    line-height: 30px;
+}
+.qb-popup > .wrap > .content dd {
+    line-height: 30px;
+}
+.qb-popup > .wrap > .content dd i {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: url(../images/icon-check.png) 0 0 no-repeat;
+}
+.qb-popup > .wrap > .content dd i.checked{
+    background-position: 0 -16px;
+}
+.qb-popup > .wrap > .content dd span {
+    font-size: 14px;
+    color: #888;
+}
+.qb-popup > .wrap > .content .block {
+  margin-top: 50px;
+}
+.qb-popup > .wrap > .content .p18 {
+  font-size: 18px;
+}
+.qb-popup > .wrap > .content .p14 {
+  font-size: 14px;
+}
+.qb-popup > .wrap > .btn-box {
+  text-align: center;
+  margin: 44px 0;
+}
+.qb-popup > .wrap > .btn-box.bmargin{
+    margin: 30px 0;
+}
+
+.qb-popup > .wrap > .btn-box > .cr-btn,.qb-popup > .wrap > .btn-box > .cr-btn-disable {
+  width: 116px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  padding: 0 8px;
+  color: #FFF;
+  text-align: center;
+  font-size: 14px;
+}
+.qb-popup > .wrap > .btn-box > .cr-btn {
+  background-color: #d03a24;
+}
+.qb-popup > .wrap > .btn-box > .cr-btn-disable{
+  background-color: #bbb;
+  margin-left: 30px;
+}
+

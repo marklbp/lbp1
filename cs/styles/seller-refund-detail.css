@@ -1,0 +1,35 @@
+body {
+    background-color: #f3f3f3;
+}
+
+.bussiness-crumbs {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
+.bussiness-crumbs > a {
+    margin: 0 5px;
+    color: #e77d00;
+}
+
+.bussiness-crumbs > em {
+    margin: 0 5px;
+    color: #333;
+}
+
+.bussiness-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.bussiness-container-wrap {
+    margin: 20px auto;
+    background: #fff;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    border: 1px solid #e8e7e7;
+    width: 954px;
+    padding: 22px;
+}

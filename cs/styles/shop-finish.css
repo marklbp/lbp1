@@ -1,0 +1,1197 @@
+﻿body {
+    background-color: #f3f3f3;
+}
+
+table {
+    border-spacing: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.bussiness-crumbs {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
+.bussiness-crumbs > a {
+    margin: 0 5px;
+    color: #e77d00;
+}
+
+.bussiness-crumbs > em {
+    margin: 0 5px;
+    color: #333;
+}
+
+.bussiness-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.bussiness-container-wrap {
+    margin-bottom: 20px;
+    background: #fff;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    border: 1px solid #e8e7e7;
+    width: 998px;
+    background:#fafafa;
+}
+
+.error-tip {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    display: none;
+    height: 30px;
+    border: 1px solid #fa2727;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    padding: 0 20px;
+    line-height: 30px;
+    margin-top: -15px;
+    background: #ffafaf;
+    color: #fa2727;
+    font-size: 12px;
+    z-index: 105;
+}
+/* button */
+
+.tool-btn {
+    width: 62px;
+    height: 28px;
+    border: 0;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+}
+
+.tool-btn-auto {
+    width: auto;
+    padding: 0 20px;
+}
+
+.punlish-btn {
+    width: auto;
+    height: 36px;
+    padding: 0 80px;
+    line-height: 36px;
+    background: #d03a24;
+}
+
+.dialog-btn {
+    width: 110px;
+    height: 32px;
+    border: 0;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+}
+
+.use-btn {
+    background: #d03a24;
+}
+
+.use-btn:hover {
+    background: #af1f0a;
+}
+
+input.disable-btn {
+    cursor: default;
+    background: #bbb;
+}
+/* 店铺装修  */
+
+.banner-manage,
+.infor-show {
+    min-height: 755px;
+    padding: 22px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.banner-manage > h3 {
+    line-height: 28px;
+    font-size: 16px;
+    color: #666;
+}
+
+.banner-manage > div {
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.banner-manage table td {
+    padding: 15px 0 20px;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+}
+
+.banner-manage table {
+    width: 100%;
+    border: 1px solid #e4e4e4;
+}
+
+.banner-manage table th {
+    height: 40px;
+    border: 1px solid #e4e4e4;
+    line-height: 40px;
+    background: #efefef;
+    color: #333;
+    text-align: center;
+}
+
+.banner-sort {
+    width: 40px;
+}
+
+.banner-id {
+    width: 86px;
+}
+
+.banner-image {
+    width: 200px;
+}
+
+.banner-product {
+    width: 220px;
+}
+
+.banner-check {
+    width: 130px;
+}
+
+.upload-wrap {
+    position: relative;
+    width: 178px;
+    height: 78px;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+.upload-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 178px;
+    height: 78px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+}
+
+.upload-tip {
+    height: 28px;
+    padding-top: 8px;
+    line-height: 28px;
+    color: #888;
+}
+
+.upload-image-option {
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    display: none;
+    width: 160px;
+    padding: 0 10px;
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.upload-image-option > span {
+    cursor: pointer;
+    float: left;
+}
+
+.upload-image-option > em {
+    cursor: pointer;
+    float: right;
+}
+
+.upload-check {
+    position: relative;
+    color: #d03a24;
+    cursor: default;
+}
+
+.upload-check > p {
+    position: absolute;
+    top: -62px;
+    left: 42%;
+    display: none;
+    width: 200px;
+    margin-left: -100px;
+    border: 1px solid #efefef;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 3px;
+    padding: 6px 10px;
+    line-height: 20px;
+    background: #fff;
+    color: #666;
+    text-align: left;
+}
+
+.upload-check:hover > p {
+    display: block;
+}
+
+.upload-check:hover > p >i {
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    display: block;
+    width: 14px;
+    height: 9px;
+    margin-left: -7px;
+    background-image: url(../images/downArrow.png);
+    background-repeat: center center;
+}
+
+.upload-shadow {
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    display: none;
+    width: 180px;
+    height: 24px;
+    background: #000;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.upload-hot {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    width: 39px;
+    height: 27px;
+    background: url(../images/hotTip.png);
+    overflow: hidden;
+}
+
+.join-product {
+    width: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.join-image {
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.join-image > div {
+    margin-bottom: 10px;
+}
+
+.join-image .imgbox {
+    width: 78px;
+    height: 78px;
+    margin-bottom: 10px;
+    border: 1px solid #efefef;
+    overflow: hidden;
+}
+
+.imgbox > img {
+    width: 100%;
+}
+
+.join-info {
+    line-height: 20px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.join-info > h3 {
+    min-height: 40px;
+    max-height: 60px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #333;
+    overflow: hidden;
+}
+
+.join-info p {
+    margin-top: 2px;
+    color: #888;
+}
+/* dialog */
+
+.dialog {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    display: none;
+    width: 660px;
+    height: 560px;
+    margin-left: -320px;
+    background: #fefefe;
+    z-index: 101;
+    font-family: "微软雅黑";
+}
+
+.dialog-wrap {
+    padding: 0 30px;
+}
+
+.dialog-close {
+    cursor: pointer;
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/dialog_close.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -1000px;
+    overflow: hidden;
+}
+
+.dialog-content {
+    padding: 0 0 30px;
+}
+
+.dialog-title {
+    padding: 20px 0;
+    border-bottom: 1px dashed #e5ddd1;
+}
+
+.dialog-title > h2 {
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #000;
+}
+
+.btn-wrap {
+    text-align: center;
+    overflow: hidden;
+}
+
+.btn-wrap > input {
+    margin: 0 10px;
+}
+
+.shadow {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 3000px;
+    background: #000;
+    z-index: 100;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.content-wrap {
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.content-wrap > table {
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    color: #333;
+}
+
+.content-wrap th {
+    height: 32px;
+    line-height: 32px;
+    background: #f1f1f1;
+    font-weight: normal;
+    text-align: center;
+}
+
+.content-wrap td {
+    padding: 8px 0;
+    border-top: 1px solid #f1f1f1;
+    text-align: center;
+}
+
+.select-checkbox {
+    width: 40px;
+}
+
+.select-image {
+    width: 100px;
+}
+
+.select-info {
+    width: 125px;
+}
+
+.select-price {
+    width: 110px;
+}
+
+.select-num {
+    width: 75px;
+}
+
+.image-box {
+    width: 78px;
+    height: 78px;
+    margin: 0 auto;
+    border: 1px solid #efefef;
+    overflow: hidden;
+}
+
+.product-id,
+.check-time {
+    margin-top: 5px;
+    color: #888;
+}
+
+.product-detail {
+    margin: 0 10px;
+    text-align: left;
+}
+
+.content-wrap h4,
+.content-wrap h5 {
+    line-height: 20px;
+    font-weight: normal;
+    overflow: hidden;
+}
+
+.content-wrap h4 {
+    height: 60px;
+}
+
+.dialog-search {
+    height: 30px;
+    padding: 5px 0 15px;
+    line-height: 30px;
+}
+
+.dialog-search > label {
+    margin: 0 5px 0 5px;
+    color: #888;
+}
+
+.dialog-search > span {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 28px;
+    margin-right: 5px;
+    padding: 0 10px;
+    line-height: 28px;
+    border: 1px solid #dedede;
+    color: #888;
+    background-image: url(../images/downa.png);
+    background-repeat: no-repeat;
+    background-position: 100px center;
+    cursor: pointer;
+}
+
+.dialog-search > span > dl {
+    position: absolute;
+    left: -1px;
+    top: 28px;
+    display: none;
+    width: 120px;
+    height: 56px;
+    border: 1px solid #dedede;
+    line-height: 28px;
+    background: #fff;
+}
+
+.dialog-search > span dd {
+    height: 28px;
+    padding: 0 10px;
+}
+
+.dialog-search > span dd:hover {
+    background: #eee;
+}
+
+.dialog-search > input {
+    width: 170px;
+    height: 18px;
+    margin: 0 15px 0 6px;
+    border: 1px solid #dedede;
+    padding: 5px;
+    line-height: 18px;
+    color: #888;
+}
+/* page */
+
+.join-page {
+    position: relative;
+    margin: 10px 0 15px;
+    text-align: right;
+    font-size: 0;
+}
+
+.join-page > em,
+.join-page > span,
+.join-page > i,
+.join-page > b {
+    display: inline-block;
+    min-width: 24px;
+    height: 24px;
+    margin-left: 4px;
+    line-height: 24px;
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.join-page > em,
+.join-page > b {
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+    background-color: #f2f2f2;
+    color: #888;
+}
+
+.join-page > span,
+.join-page > em:hover,
+.join-page > b:hover {
+    border: 1px solid #e77d00;
+    background-color: #e77d00;
+    color: #fff;
+}
+
+.join-page > b {
+    text-indent: -100000px;
+}
+
+.join-page > b {
+    background-repeat: no-repeat;
+    background-image: url(../images/next-button.png);
+    background-position: center center;
+}
+
+.join-page > b:first-child {
+    background-repeat: no-repeat;
+    background-image: url(../images/prev-button.png);
+    background-position: center center;
+}
+
+.join-page > b:hover {
+    background-color: #e77d00;
+    background-repeat: no-repeat;
+    background-image: url(../images/next-button-hover.png);
+    background-position: center center;
+}
+
+.join-page > b:first-child:hover {
+    background-color: #e77d00;
+    background-repeat: no-repeat;
+    background-image: url(../images/prev-button-hover.png);
+    background-position: center center;
+}
+
+.speate {
+    min-height: 110px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+/* 商品发布 */
+
+.product-form > li {
+    min-height: 30px;
+    padding: 10px 0;
+}
+
+.product-form > .add-product-type {
+    padding: 0 0 10px 0;
+}
+
+.product-form >.add-product {
+    position: relative;
+}
+
+.product-form >.add-product > em {
+    cursor: pointer;
+    position: absolute;
+    top: 75px;
+    left: 610px;
+    width: 29px;
+    height: 29px;
+    background: url(../images/j.png);
+}
+
+.product-form > li > label {
+    float: left;
+    width: 80px;
+    margin-right: 20px;
+    line-height: 30px;
+    text-align: right;
+    font-size: 14px;
+    color: #666;
+}
+
+.product-form .star {
+    color: #d34733;
+}
+
+.product-form > li {
+    position: relative;
+}
+
+.product-form > li > div {
+    overflow: hidden;
+    /*height: 94px;*/
+    /*position: relative;*/
+}
+
+.product-form > li > .area{
+    display: block;
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    border:1px solid #dedede;
+    margin: 66px 0 0 20px;
+    color: #888;
+    position: absolute;
+    left: 320px;
+    top: 11px;
+    z-index: 100;
+    background: url(../images/downa.png) no-repeat 150px 10px;
+}
+
+.product-form > li > .textarea{
+  position: absolute;
+  top: 103px;
+  left: 340px;
+  border: 1px solid #dedede;
+  color: #888;
+  width: 170px;
+  max-height: 144px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 105;
+  display: none;
+  background: #fff;
+}
+
+.product-form > li > .textarea li{
+    border-bottom: 1px solid #dedede;
+    height: 30px;
+    line-height: 30px;
+    width: 150px;
+    padding: 0 10px;
+    overflow: hidden;
+  display: block;
+  /*white-space: nowrap;*/
+  /*text-overflow: ellipsis;*/
+}
+
+
+.product-form > li input {
+    width: 210px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid #dedede;
+    padding: 4px 8px;
+    line-height: 20px;
+    color: #aaa;
+    font-family: "微软雅黑";
+}
+
+.product-form .tag-box {
+    width: 560px;
+    border: 1px solid #dedede;
+    padding: 10px;
+}
+
+.product-form .tag-tip {
+    color: #666;
+}
+
+.product-form .tag-tip> em {
+    color: #888;
+}
+
+.product-form .tag-show,
+.product-form .tag-add {
+    margin-top: 10px;
+}
+
+.hot-tag {
+    margin: 20px 0 10px;
+}
+
+.hot-tag > h4 {
+    float: left;
+    line-height: 22px;
+    margin: 5px 0;
+    color: #666;
+    font-weight: normal;
+}
+
+.hot-tag > div {
+    overflow: hidden;
+}
+
+.tag-name {
+    display: inline-block;
+    height: 22px;
+    margin: 5px 0 5px 8px;
+    padding-left: 7px;
+    line-height: 22px;
+    background-image: url(../images/arrow.png);
+    background-repeat: no-repeat;
+    background-color: #f9f9f9;
+    *display: inline;
+    *zoom: 1;
+    overflow: hidden;
+}
+
+.tag-name b {
+    float: left;
+    margin-right: 5px;
+    font-weight: normal;
+}
+
+.tag-name > span {
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    border: 1px solid #d9d9d9;
+    border-left: none;
+    padding: 0 6px;
+    line-height: 20px;
+    color: #666;
+    overflow: hidden;
+    *display: inline;
+    *zoom: 1;
+}
+
+.tag-name > span > i {
+    float: left;
+    display: block;
+    height: 8px;
+    margin: 6px 4px 0 0;
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.tag-name > span > em {
+    float: left;
+    display: block;
+    margin: 4px 0 0 0;
+    height: 12px;
+    width: 12px;
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
+    background-position: 2px -30px;
+    overflow: hidden;
+}
+
+.tag-delete:hover> span {
+    color: #e77d00;
+}
+
+.tag-delete:hover> span > em {
+    background-color: #e77d00;
+    background-position: 2px -46px;
+}
+
+.option-add,
+.option-complete {
+    background-position: 0 0;
+    background-color: #f9f9f9;
+}
+
+.option-add > span > i {
+    width: 8px;
+    background-position: 0 0;
+}
+
+.option-add >span:hover,
+.option-complete > span:hover {
+    color: #e77d00;
+}
+
+.option-disabled {
+    background-position: 0 0;
+    background-color: #efefef;
+}
+
+.option-disabled > span {
+    cursor: default;
+    color: #bbb;
+}
+
+.option-disabled > span > i {
+    width: 8px;
+    background-position: 0 -18px;
+}
+
+.option-complete > span {
+    cursor: default;
+}
+
+.option-complete > span > i {
+    width: 10px;
+    background-position: 0 -9px;
+}
+
+.qbb {
+    color: #888;
+}
+
+.fee-template {
+    float: left;
+    width: 220px;
+    height: 84px;
+    line-height: 28px;
+    border: 1px solid #dedede;
+    padding: 4px 0;
+    overflow: auto;
+    color: #888;
+}
+
+.fee-template > li {
+    padding: 0 10px;
+}
+
+.add-template {
+    position: relative;
+    top: 72px;
+}
+
+.add-template> a {
+    margin-left: 205px;
+    color: #e77d00;
+}
+
+.product-list {
+    min-height: 110px;
+}
+
+.product-list > li,
+.product-list > div {
+    position: relative;
+    float: left;
+    width: 108px;
+    height: 108px;
+    margin: 0 10px 20px 0;
+    border: 1px solid #ececec;
+}
+
+.product-list > p {
+    position: relative;
+    top: 90px;
+    color: #aaa;
+}
+
+.product-list .product-image {
+    width: 108px;
+    height: 108px;
+    overflow: hidden;
+}
+
+.product-list .product-image > img {
+    width: 100%;
+}
+
+.product-list .product-shadow {
+    width: 110px;
+}
+
+.product-list .product-option {
+    width: 100px;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.product-replain {
+    width: 100%;
+    overflow: hidden;
+    color: #888;
+}
+
+.product-list > .upload-btn {
+    cursor: pointer;
+    background-image: url(../images/add.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.product-list > .upload-btn > input {
+    width: 110px;
+    height: 110px;
+    margin: 0;
+    padding: 0;
+}
+
+.product-form .product-description {
+    width: 578px;
+    height: 150px;
+    border: 1px solid #dedede;
+    padding: 5px;
+    line-height: 24px;
+    text-align: left;
+    resize: none;
+}
+
+.description-size {
+    width: 590px;
+    margin-top: 6px;
+    text-align: right;
+    color: #888;
+}
+
+.select-template {
+    position: absolute;
+    top: 30px;
+    right: 80px;
+    font-size: 12px;
+    color: #e77d00;
+}
+/* 补充 dialog */
+
+.dialog .template-head {
+    color: #a9a9a9;
+}
+
+.dialog .template-head th {
+    border: 1px solid #fff;
+}
+
+.template-list {
+    width: 600px;
+    max-height: 185px;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.template-list table {
+    width: 100%;
+    max-width: 600px;
+    border: none;
+    color: #666;
+}
+
+.template-list td {
+    height: 20px;
+    border-top: none;
+    border-bottom: 1px solid #f5f6f7;
+    line-height: 20px;
+}
+
+.product-type-box {
+    width: 450px;
+    border: 1px solid #dedede;
+    padding: 10px 20px;
+    background: #fbfafa;
+}
+
+.product-type-box > li {
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.product-type-box > li > label {
+    float: left;
+    width: 36px;
+    margin-right: 15px;
+    line-height: 30px;
+    text-align: right;
+    font-size: 14px;
+    color: #666;
+}
+
+.have-banner:hover .upload-shadow {
+    display: block;
+}
+
+.have-banner:hover .upload-image-option {
+    display: block;
+}
+
+#shopLogo > .upload-wrap,
+#shopCover > .upload-wrap {
+    cursor: pointer;
+    position: relative;
+    float: left;
+    width: 108px;
+    height: 108px;
+    margin: 0 10px 20px 0;
+    border: 1px solid #ececec;
+    background-color: #fff;
+    background-image: url(../images/add.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#shopCover > .upload-wrap {
+    width: 178px;
+    height: 78px;
+    background-image: url(../images/add-df.png);
+}
+
+#shopLogo > p,
+#shopCover>p {
+    position: relative;
+    top: 90px;
+    color: #aaa;
+}
+
+#shopCover>p {
+    top: 60px;
+}
+
+.search-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 226px;
+    min-height: 28px;
+    max-height: 140px;
+    display: none;
+    border: 1px solid #dedede;
+    background: #fff;
+    line-height: 28px;
+    font-size: 12px;
+    overflow: auto;
+}
+
+.search-list > dd {
+    cursor: pointer;
+    height: 28px;
+    padding: 0 8px;
+    color: #888;
+}
+
+.search-list> dd:hover {
+    background: #eee;
+}
+
+.company-infor > li {
+    width: 100%;
+    height: 28px;
+    padding: 10px 0;
+    line-height: 28px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.company-infor > li > label {
+    float: left;
+    display: block;
+    width: 80px;
+    text-align: right;
+    padding-right: 15px;
+    color: #a7a7a7;
+}
+
+.company-infor > li > div {
+    overflow: hidden;
+    color: #535353;
+}
+
+.tabs{
+    width: 100%;
+    margin: 0px auto;
+    height: 30px;
+    clear: both;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.tabs ul{
+    width: 100%;
+    /*margin: 0px auto;*/
+    /*border-bottom: 2px solid rgb(170,170,170);*/
+    height: 30px;
+}
+.tabs li{
+    width: 15%;
+    float: left;
+    /*padding: 3px 3px ;*/
+    border-bottom:2px solid #AAAAAA;
+    height: 30px;
+    color: grey;
+    overflow: hidden;
+}
+.tabs .menu{
+    cursor: pointer;
+}
+.tabs li:hover{
+    /*background:#AA0000 ;*/
+    /*color: #fff;*/
+}
+.tabs .active{
+     /*background:#AA0000 ;*/
+     color: #000;
+    border-bottom: 2px solid #AA0000;
+}
+.tabs .pc{
+    /*border-top-left-radius: 8px;*/
+    /*border-bottom-left-radius: 8px;*/
+    /*border-right: 0px;*/
+}
+.tabs .app{
+    /*border-top-right-radius: 8px;*/
+    /*border-bottom-right-radius: 8px;*/
+}
+.shstatus{
+    font-size: 14px;
+    line-height: 30px;
+
+}
+/*审核中*/
+.shz{
+    color: #AA0000;
+}
+/*通过*/
+.shtg{
+ color: #00aeef;
+}
+#disable{
+    position: absolute;
+    min-height: 1080px;
+    width: 830px;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    opacity: .5;
+    z-index: 1000;
+    line-height: 150%;
+    text-align: center;
+    color: white;
+}
+#disable h1{
+    margin-top: 30%;
+}
+.disable{
+    background: #000;
+    opacity: .1;
+    position: absolute;
+    z-index: 1000;
+    width: 110px;
+    display: none;
+    height: 110px;
+}
+#shops-dialog img,#shy img{
+    width: 90px;
+    height: 90px;
+}

@@ -1,0 +1,984 @@
+body {
+    background-color: #f3f3f3;
+}
+/* crumbs */
+
+.bussiness-crumbs {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
+.bussiness-crumbs > a {
+    margin: 0 5px;
+    color: #e77d00;
+}
+
+.bussiness-crumbs > em {
+    margin: 0 5px;
+    color: #333;
+}
+
+.bussiness-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.bussiness-container-wrap {
+    margin-bottom: 20px;
+    background: #fff;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    border: 1px solid #e8e7e7;
+    width: 954px;
+    padding: 22px;
+}
+/* step */
+
+.refund-step {
+    height: 38px;
+}
+
+.refund-step > ol {
+    width: 100%;
+    height: 38px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.refund-step > ol > li {
+    float: left;
+    height: 22px;
+    padding: 8px 0;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+}
+
+.refund-step > ol > .processed-prev {
+    background-color: #feb491;
+    background-image: url(../images/refundstep.png);
+    background-repeat: no-repeat;
+    background-position: right -76px;
+}
+
+.refund-step > ol > .processed {
+    background-color: #feb491;
+    background-image: url(../images/refundstep.png);
+    background-repeat: no-repeat;
+    background-position: right 0;
+}
+
+.refund-step > ol > .dealing {
+    background-color: #ff914f;
+    background-image: url(../images/refundstep.png);
+    background-repeat: no-repeat;
+    background-position: right -38px;
+}
+
+.refund-step > ol > .untreated {
+    background-color: #bbb;
+    background-image: url(../images/refundstep.png);
+    background-repeat: no-repeat;
+    background-position: right -114px;
+}
+
+.refund-step > ol > .untreated-next {
+    background: #bbb;
+}
+
+.refund-step > ol > .step-last {
+    background-image: none;
+}
+
+.drop-shipping > li,
+.goods-receiving >li {
+    width: 33.26%;
+}
+
+.drop-shipping > li:first-child,
+.goods-receiving >li:first-child {
+    width: 33.4%;
+}
+
+.goods-received > li {
+    width: 25%;
+}
+
+.refund-step > ol > li span {
+    display: inline-block;
+}
+
+.refund-icon {
+    position: relative;
+    left: -6px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-image: url(../images/refundstep.png);
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
+
+.refund-one {
+    background-position: 0 -192px;
+}
+
+.refund-two {
+    background-position: 0 -224px;
+}
+
+.refund-three {
+    background-position: 0 -256px;
+}
+
+.refund-four {
+    background-position: 0 -288px;
+}
+
+.refund-success {
+    background-position: 0 -160px;
+}
+/*detail*/
+
+.refund-detail {
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+
+.option-list > h3 {
+    height: 40px;
+    border-top: 1px solid #eee;
+    padding: 0 20px;
+    background: #fafafa;
+    line-height: 40px;
+    color: #333;
+}
+
+.refund-detail > .refund-order {
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+    color: #333;
+    background: #eee;
+}
+
+.option-list> ul {
+    padding: 0px 20px;
+}
+
+.option-list> ul > li {
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.option-list> ul > li:first-child {
+    border-top: none;
+}
+
+.option-list li > div {
+    height: 24px;
+    line-height: 24px;
+    color: #888;
+}
+
+.option-list li > div > em {
+    float: right;
+    margin-right: 40px;
+}
+
+.option-list li > p {
+    line-height: 20px;
+    color: #333;
+}
+
+.option-list li > p > span {
+    margin-right: 20px;
+}
+
+.option-list li > p > span:first-child {
+    color: #888;
+}
+
+.option-list li > p > em {
+    margin-right: 20px;
+    color: #ba3d2b;
+}
+
+.option-list li > dl {
+    width: 870px;
+    padding-top: 4px;
+    color: #666;
+}
+
+.option-list li > dl dd {
+    width: 100%;
+    min-height: 24px;
+    line-height: 24px;
+}
+
+.option-list li > dl span {
+    display: block;
+    float: left;
+    width: 60px;
+    padding-right: 10px;
+    line-height: 24px;
+    text-align: right;
+}
+
+.option-list li > dl em {
+    display: block;
+    overflow: hidden;
+}
+
+.option-list li > dl i {
+    display: block;
+    overflow: hidden;
+    height: 50px;
+}
+
+.option-list li > dl a {
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin-right: 5px;
+    border: 1px solid #bbb;
+    overflow: hidden;
+}
+
+.option-list li > dl img {
+    width: 100%;
+}
+
+.refund-option {
+    padding: 10px 20px 20px;
+    line-height: 24px;
+}
+
+.refund-state {
+    padding: 10px 0;
+    font-weight: normal;
+    font-size: 16px;
+    color: #333;
+    text-align: left;
+}
+
+.refund-state > span {
+    margin: 0 4px;
+    font-size: 12px;
+    color: #666;
+}
+
+.refund-reason,
+.refund-explain {
+    padding: 0 0 10px;
+    min-height: 22px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #666;
+}
+
+.refund-explain> div {
+    float: left;
+    width: 70px;
+}
+
+.refund-explain> p {
+    overflow: hidden;
+}
+
+.success-option {
+    line-height: 30px;
+    text-align: center;
+}
+
+.success-option > div:first-child {
+    display: inline-block;
+    margin: 15px 0 10px;
+    padding-left: 40px;
+    background-image: url(../images/success.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 18px;
+    color: #333;
+    *display: inline;
+    *zoom: 1;
+}
+
+.success-option > p {
+    font-size: 14px;
+    color: #888;
+}
+
+.success-option > p >em {
+    color: #d03a24;
+}
+
+.success-option > em {
+    display: block;
+    font-size: 18px;
+    color: #666;
+}
+
+.arbitrate {
+    text-align: left;
+    color: #666;
+}
+
+.arbitrate > a {
+    margin-left: 5px;
+    color: #e77d00;
+    text-decoration: underline;
+}
+
+.option-btn {
+    min-height: 26px;
+    margin-top: 10px;
+}
+
+.option-btn > .btn {
+    margin-right: 20px;
+}
+
+.success-option > .option-refuse {
+    padding: 30px 0;
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+}
+
+.btn {
+    float: left;
+    display: block;
+    min-width: 50px;
+    height: 26px;
+    padding: 0 10px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-cancel {
+    background: #bbb;
+}
+
+.btn-confirm {
+    background: #d03a24;
+}
+
+.btn-refuse {
+    background: #0d8bc5;
+}
+
+.option-back {
+    text-decoration: underline;
+    color: #e77d00;
+}
+
+.option-tip {
+    margin: 10px 0 0;
+    padding-left: 30px;
+    background-color: #fef7dd;
+    background-image: url(../images/light.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    line-height: 28px;
+    color: #666;
+}
+
+.option-tip > em {
+    color: #333;
+}
+
+.option-form {
+    margin-top: 15px;
+}
+
+.option-form > li {
+    line-height: 34px;
+    padding: 4px 0;
+}
+
+.option-form > li label {
+    margin-right: 10px;
+    color: #666;
+}
+
+.option-form > li > div {
+    height: auto;
+}
+
+.option-form > li > div > label {
+    position: relative;
+    top: -55px;
+}
+
+.option-reason {
+    margin-left: 120px;
+}
+
+.option-form .find-password {
+    color: #888;
+    text-decoration: underline;
+}
+
+.option-form > li input {
+    width: 130px;
+    height: 16px;
+    margin-right: 10px;
+    border: 1px solid #e4e4e4;
+    padding: 8px 3px;
+    line-height: 16px;
+}
+
+.option-form > li button {
+    cursor: pointer;
+    height: 28px;
+    border: 0;
+    padding: 0 6px;
+    background: #98c13d;
+    line-height: 28px;
+    color: #fff;
+}
+
+.option-form > li textarea {
+    width: 350px;
+    height: 60px;
+    border: 1px solid #e4e4e4;
+    padding: 6px;
+    line-height: 20px;
+}
+
+.template-content {
+    display: none;
+}
+/* dialog */
+
+.dialog {
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    display: none;
+    width: 550px;
+    margin-left: -265px;
+    background: #fefefe;
+    z-index: 101;
+    font-family: "微软雅黑";
+}
+
+.dialog-wrap {
+    padding: 0 30px;
+}
+
+.dialog-close {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/dialog_close.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: -1000px;
+    overflow: hidden;
+}
+
+.dialog-content {
+    padding: 0 0 20px;
+}
+
+.dialog-title {
+    padding: 25px 0;
+    border-bottom: 1px dashed #e5ddd1;
+}
+
+.dialog-title > h2 {
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #000;
+}
+
+.btn-wrap {
+    margin-bottom: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.refund-money {
+    margin: 40px 0;
+    line-height: 22px;
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.refund-money.tl {
+    text-align: left;
+}
+
+.refund-money > em {
+    color: #d03a24;
+}
+
+.refund-password {
+    height: 30px;
+    margin: 10px 0 40px;
+    line-height: 30px;
+    color: #888;
+    text-align: center;
+    overflow: hidden;
+}
+
+.refund-password > label,
+.refuse-shipping > label {
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.refund-password > input {
+    width: 170px;
+    height: 18px;
+    border: 1px solid #dedede;
+    padding: 5px;
+    line-height: 20px;
+    color: #666;
+}
+
+.refuse-shipping {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.refuse-shipping > label {
+    position: relative;
+    color: #666;
+    vertical-align: top;
+}
+
+.refuse-shipping > textarea {
+    width: 300px;
+    height: 90px;
+    border: 1px solid #dedede;
+    padding: 10px;
+    font-size: 12px;
+    color: #bbb;
+}
+
+.feecompany-list {
+    margin: 30px 0 40px;
+}
+
+.feecompany-list > li {
+    height: 34px;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.feecompany-list >li> label {
+    float: left;
+    width: 140px;
+    height: 34px;
+    margin-right: 8px;
+    line-height: 34px;
+    text-align: right;
+    font-size: 14px;
+    color: #888;
+}
+
+.feecompany-list >li > div {
+    float: left;
+    width: 260px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #dedede;
+}
+
+.feecompany-list >li input {
+    width: 235px;
+    height: 20px;
+    border: 0;
+    padding: 6px 10px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.get-list {
+    position: relative;
+}
+
+.get-list > span {
+    margin-left: 10px;
+    color: #aaa;
+}
+
+.get-list > dl {
+    display: none;
+    position: absolute;
+    max-height: 150px;
+    top: 32px;
+    left: -1px;
+    width: 260px;
+    border: 1px solid #dedede;
+    background: #fff;
+    overflow: auto;
+}
+
+.get-list > dl dd {
+    height: 30px;
+    padding: 0 10px;
+    line-height: 30px;
+    color: #666;
+    cursor: pointer;
+}
+
+.get-list > dl dd:hover {
+    background: #f9f9f9;
+}
+
+.fee-other {
+    display: none;
+}
+/* btn */
+
+.tool-btn {
+    cursor: pointer;
+    margin: 0 8px;
+    border: 0;
+    padding: 8px 40px;
+    color: #fff;
+    font-size: 14px;
+    overflow: visible;
+    font-family: "微软雅黑";
+}
+
+.confirm-btn {
+    background-color: #d03a24;
+}
+
+.cancle-btn {
+    background-color: #bbb;
+}
+
+.shadow {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 3000px;
+    background: #000;
+    z-index: 100;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+/* table */
+
+.refund-product {
+    margin-top: 20px;
+    border: 1px solid #eee;
+}
+
+.refund-product > table {
+    width: 100%;
+    border-collapse: separate;
+    vertical-align: top;
+    text-align: center;
+}
+
+.refund-product tbody >tr {
+    padding: 20px;
+    color: #666;
+}
+
+.refund-product thead th {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #333;
+    font-weight: normal;
+    background: #eee;
+}
+
+.refund-product thead th:first-child {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.refund-product tbody td {
+    padding: 20px 0;
+    color: #666;
+    vertical-align: top;
+}
+
+.refund-product tbody .order-infor {
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    background: #fafafa;
+    color: #888;
+    text-align: left;
+}
+
+.refund-product .order-infor > em {
+    float: left;
+    margin-right: 180px;
+}
+
+.refund-product .order-infor > span {
+    float: right;
+}
+
+.refund-product .product-name {
+    width: 33%;
+}
+
+.refund-product .product-number {
+    width: 13%;
+}
+
+.refund-product .product-price,
+.refund-product .product-total {
+    width: 16%;
+}
+
+.refund-product .product-infor> div {
+    position: relative;
+    float: left;
+    width: 78px;
+    height: 78px;
+    border: 1px solid #efefef;
+    margin: 0 20px;
+    overflow: hidden;
+}
+
+.refund-product .product-infor> div > div.pai {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 30px;
+    height: 18px;
+    background-image: url(../images/pai.png);
+    background-repeat: no-repeat;
+}
+
+.refund-product .product-infor> div > div.baog {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    width: 30px;
+    height: 18px;
+    background-image: url(../images/gou.png);
+    background-repeat: no-repeat;
+}
+
+.refund-product .product-infor> div > img {
+    width: 100%;
+}
+
+.refund-product .product-infor> p {
+    padding-right: 10px;
+    overflow: hidden;
+    line-height: 24px;
+    text-align: left;
+}
+
+.refund-product .fee-price {
+    color: #888;
+}
+
+.refund-product > ul {
+    /* tode */
+    
+    padding: 0 20px;
+}
+
+.refund-product >ul >li {
+    position: relative;
+    border-top: 1px solid #eee;
+    padding: 15px 0 20px;
+}
+
+.refund-product >ul h3 {
+    line-height: 30px;
+    color: #333;
+    font-size: 14px;
+}
+
+.refund-product >ul dl,
+.refund-remark {
+    line-height: 28px;
+    color: #666;
+}
+
+.refund-product >ul label {
+    padding-right: 10px;
+}
+
+.refund-remark {
+    padding-bottom: 20px;
+}
+
+.refund-remark > label {
+    float: left;
+    display: block;
+}
+
+.refund-remark > p {
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.im-code {
+    position: absolute;
+    width: 170px;
+    top: 20px;
+    right: 10px;
+    text-align: center;
+    color: #7a7a7a;
+}
+
+.im-code > div {
+    width: 85px;
+    height: 85px;
+    margin: 0 auto 10px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+.im-code > div > img {
+    width: 100%;
+}
+/* 仲裁 */
+
+.refund-zcTitle {
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.refund-zc {
+    /* todo */
+}
+
+.refund-zc> li {
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.refund-zc> li >label {
+    float: left;
+    display: block;
+    width: 65px;
+    height: 32px;
+    line-height: 32px;
+    color: #7a7a7a;
+}
+
+.refund-zc> li >div {
+    overflow: hidden;
+}
+
+.refund-zc> li >div > p {
+    padding-top: 10px;
+    color: #888;
+}
+
+.refund-zc> li textarea {
+    width: 380px;
+    height: 60px;
+    border: 1px solid #ececec;
+    padding: 6px 10px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+.phone-number {
+    width: 200px;
+    height: 20px;
+    border: 1px solid #ececec;
+    padding: 5px;
+    line-height: 20px;
+    color: #aaa;
+}
+
+.refund-zc .tool-btn {
+    margin: 0 20px 0 0;
+    padding: 5px 20px;
+    font-size: 12px;
+}
+
+.piclist-wrap {
+    height: 110px;
+}
+
+.zc-piclist {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    border: 1px solid #ececec;
+    padding: 4px;
+    overflow: hidden;
+}
+
+.zc-upload {
+    background-image: url(../images/add.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.zc-piclist img {
+    width: 100%;
+}
+
+.zc-piclist > div {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 110px;
+    height: 25px;
+    line-height: 25px;
+    background-image: url(../images/filter.png);
+    background-repeat: repeat-y;
+    background-position: 0 0;
+    color: #fff;
+    text-align: center;
+}
+
+.zc-piclist:hover > div {
+    display: block;
+}
+
+.zc-piclist > input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 108px;
+    height: 108px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.error-tip {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    display: none;
+    height: 30px;
+    border: 1px solid #fa2727;
+    padding: 0 20px;
+    line-height: 30px;
+    margin-top: -15px;
+    background: #ffafaf;
+    color: #fa2727;
+    font-size: 12px;
+    z-index: 1000;
+}

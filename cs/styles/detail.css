@@ -1,0 +1,190 @@
+body {
+  font-size: 14px;
+  color: #666;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+
+.bussiness-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.bussiness-crumbs {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
+.bussiness-crumbs > a {
+    margin: 0 5px;
+    color: #e77d00;
+}
+
+.bussiness-crumbs > em {
+    margin: 0 5px;
+    color: #333;
+}
+
+.bussiness-container-wrap{
+    margin-bottom: 20px;
+    background: #fff;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    border: 1px solid #e8e7e7;
+    width: 998px;
+    background:#fafafa;
+}
+
+.detail_show {
+  padding: 22px;
+  background: #fff;
+}
+
+.detail_show h2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: #333;
+}
+
+.detail_showpart {
+  padding: 20px 0;
+}
+
+.detail_showpart h3 {
+  font-size: 16px;
+  color: #333;
+  padding-bottom: 10px;
+}
+
+.detail_showpart p {
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+.goods_img {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.goods_img em {
+  position: relative;
+  display: inline-block;
+  width: 105px;
+  height: 100px;
+}
+
+.cover {
+  display: block;
+  background-image: url("../images/hotTip.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  height: 27px;
+  overflow: hidden;
+  position: absolute;
+  right: 5px;
+  top: -4px;
+  width: 39px;
+}
+
+.goods_img img {
+  padding-right: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+.goods_ms {
+  min-height: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  vertical-align: top;
+  display: inline-block;
+  width: 690px;
+  overflow: hidden;
+}
+
+.mar_l30 {
+  margin-left: 130px;
+}
+
+.showpartb {
+  padding: 0 20px 20px;
+}
+
+.showparta {
+  position: relative;
+  background: #f7f8fa;
+  padding: 20px;
+}
+
+.showparta i {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.showparta h4 {
+  font-size: 20px;
+}
+
+.showparta .status {
+  color: #d03a24;
+}
+
+.showparta p span {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#status {
+  font-weight: bold;
+  color: #d03a24;
+  font-size: 14px;
+}
+
+#auditReason {}
+
+.detail-applymess {
+  margin-top: 20px;
+}
+
+.detail-applymess p:first-child {
+  margin-right: 120px;
+}
+
+.detail-applymess p span {
+  display: block;
+}
+
+.showpartc {
+  padding: 0 20px 30px;
+  border-bottom: 1px dotted #ddd;
+}
+
+.showpartc h4 {
+  color: #333;
+  padding-bottom: 10px;
+}
+
+
+/*商家卖点添加*/
+
+.sellPoint {}
+
+.sellPointl {
+  float: left;
+}
+
+.sellPointr {
+  float: left;
+}
+
+.sellPointr em {
+  display: block;
+  padding-bottom: 5px;
+}

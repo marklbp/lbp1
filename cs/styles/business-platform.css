@@ -1,0 +1,9 @@
+.site-menu {
+    display: none;
+}
+
+.site-header .site-nav .home-url {
+    display: inline;
+}
+
+.site-header {}

@@ -1,0 +1,148 @@
+body {
+    background: #f3f3f3;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.bussiness-crumbs {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #888;
+}
+
+.bussiness-crumbs > a {
+    margin: 0 5px;
+    color: #e77d00;
+}
+
+.bussiness-crumbs > em {
+    margin: 0 5px;
+    color: #333;
+}
+
+.bussiness-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.bussiness-container-wrap {
+    margin-bottom: 20px;
+    background: #fff;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    border: 1px solid #e8e7e7;
+    width: 998px;
+    background:#fafafa;
+}
+.logistics {
+    overflow: hidden;
+}
+.order-code {
+    padding: 10px 20px;
+    line-height: 20px;
+    background-color: #efefef;
+}
+.order-code > span {
+    margin-right: 75px;
+    color: #333;
+}
+.logistics-infor {
+    border-bottom: none;
+    background: #fff8ea;
+    color: #666;
+}
+.logistics-infor .logistics-code {
+    padding: 8px 25px;
+    line-height: 18px;
+    color: #666;
+}
+.logistics-code > span {
+    margin-right: 80px;
+}
+.logistics-code > .code-last {
+    margin-right: 0;
+}
+.logistics-infor .logistics-code > h3 {
+    font-weight: normal;
+    font-size: 12px;
+}
+.logistics-infor strong {
+    font-weight: bold;
+}
+.logistics-infor .logistics-detail {
+    margin: 0 0 1px 1px;
+    padding: 10px;
+    background: #fff8ea;
+    line-height: 20px;
+    color: #888;
+}
+.logistics-infor .detail-code {
+    margin-top: 10px;
+}
+.logistics-flow {
+    padding: 25px;
+    overflow: hidden;
+    background: #fff;
+}
+.logistics-flow > h3 {
+    border-bottom: 1px solid #f2f2f2;
+    line-height: 24px;
+    font-size: 14px;
+    color: #333;
+}
+.logistics-flow > ul {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #fafafa;
+    color: #666;
+    overflow: hidden;
+}
+.logistics-flow > ul > li {
+    padding: 5px 10px;
+    line-height: 20px;
+}
+.logistics-flow > ul em {
+    margin-left: 25px;
+}
+.logistics-flow .flow-detail {
+    overflow: hidden;
+}
+.logistics-flow .flow-time {
+    float: left;
+    margin-right: 25px;
+}
+.logistics-flow .flow-detail > p:first-child {
+    color: #0d8bc5;
+}
+.logistics-flow .flow-detail span {
+    margin-right: 15px;
+    color: #333;
+}
+.logistics-flow .flow-success {
+    background: #efefef;
+}
+.logistics-flow .tip {
+    margin-top: 20px;
+    padding-left: 30px;
+    background-color: #fef7dd;
+    background-image: url(../images/light.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    line-height: 28px;
+    color: #666;
+}
